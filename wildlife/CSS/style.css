@@ -54,7 +54,30 @@
   }
 
   .header_link:hover,.header_link:focus,.header_link:active{
-      opacity: .75;
+    /* opacity: .75; */
+    color: #CD6326;
+  }
+
+  .button_signIn{
+    width: 120px;
+    height: 50px;
+    background: transparent url(.jpg) no-repeat center;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #F7F7F7;
+    padding: 2px 6px;
+  }
+  .button_signIn:hover{
+      background: #CD6326;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .button_signIn:focus, .button_signIn:active{
+      background: #8F5613;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
   .header_logo-name{
@@ -76,10 +99,54 @@
 
   /* intro stles start*/
 .intro{
-    height: 100vh;
+    min-height: 100vh;
     background: url(../assets/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 199px;
 }
+
+.intro_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #CD6326;
+    letter-spacing: 2px;
+    margin-bottom: 51px;
+}
+
+.intro_subtitle{
+    max-width: 274px;
+    height: 108px;
+    color: #F7F7F7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 49px;
+}
+
+.button_donate{
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    padding: 16px 42px;
+    color: #F7F7F7;
+}
+
+.button_donate:hover{
+    background: #E39128;;
+}
+.button_donate:active,.button_donate:focus{
+    background: #8F5613;
+}
+
 
 
   /* intro stles end*/
