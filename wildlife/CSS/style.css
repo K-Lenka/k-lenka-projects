@@ -17,7 +17,8 @@
   }
 
   .wrapper{
-      max-width: 1200px;
+      max-width: 1440px;
+      max-height: 780px;
       margin: 0 auto;
   }
 
@@ -147,7 +148,49 @@
     background: #8F5613;
 }
 
-
-
   /* intro stles end*/
 
+  /*Articles styles start*/
+
+  .articles_wrap{
+    max-width: 1440px;
+    max-height: 1368px;
+    margin: 0 auto;
+    position: relative;
+
+}
+  .article_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    
+  }
+  .article_subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 120px;
+  }
+
+  .latest_articles{ 
+      background-size: cover;
+      background: #CCCCCC;
+  }
+
+  .articles_cards{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 60px;
+      /* height: 300px;
+      height: 360px; */
+  }
+
+ /*Articles styles end*/
