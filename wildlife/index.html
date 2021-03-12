@@ -12,59 +12,58 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header_wrapper">
 
-                <div class="header_logo">
-                    <a href="/" class="header_logo-link">
-                        <img src="./assets/logo.svg" alt="Wildlife" class="header_logo-pic">
-                        <span class="header_logo-name">wildlife</span>
-                    </a>
-                </div>
+    <section class="survival">
+        <header class="header">
 
-                <nav class="header_nav">
-                    <ul class="header_list">
-                        <li class="header_item">
-                            <a href="#!" class="header_link">Blog</a>
-                        </li>
+            <div class="wrapper">
+                <div class="header_wrapper">
+                    <div class="header_logo">
+                        <a href="/" class="header_logo-link">
+                            <img src="./assets/logo.svg" alt="Wildlife" class="header_logo-pic">
+                            <span class="header_logo-name">wildlife</span>
+                        </a>
+                    </div>
 
-                        <li class="header_item">
-                            <a href="#!" class="header_link">Contacts</a>
-                        </li>
+                    <nav class="header_nav">
+                        <ul class="header_list">
+                            <li class="header_item">
+                                <a href="#!" class="header_link">Blog</a>
+                            </li>
 
-                        <li class="header_item">
-                            <a href="#!" class="header_link"><img class="header_search-img" src="./assets/search.png"
-                                    alt=""></a>
-                        </li>
+                            <li class="header_item">
+                                <a href="#!" class="header_link">Contacts</a>
+                            </li>
 
-                        <li class="header_item">
-                            <a href="#!" class="header_link"><button type="button" class="button_signIn">Sign
+                            <li class="header_item">
+                                <a href="#!" class="header_link"><img class="header_search-img" src="./assets/search.png" alt=""></a>
+                            </li>
+
+                            <li class="header_item">
+                                <a href="#!" class="header_link"><button type="button" class="button_signIn">Sign
                                     in</button></a>
-                        </li>
+                            </li>
 
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main class="main">
-        <section class="intro">
+        <main class="main_survival">
 
             <div class="wrapper">
                 <h1 class="intro_title">Survival</h1>
                 <p class="intro_subtitle">
-                    What this means is that we exist to help protect our environment and do in numbers of ways. You can
-                    save the planet by donation.
+                    What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.
                 </p>
                 <p>
                     <button type="button" class="button_donate">Donate</button>
                 </p>
             </div>
 
-        </section>
-    </main>
+        </main>
+    </section>
 
     <section class="latest_articles">
 
@@ -74,6 +73,9 @@
             <p class="article_subtitle">Breaking news from the wild</p>
 
             <div class="articles_cards">
+                <div class="vector">
+                    <img src="./assets/Vector_left_.svg" alt="vector-left" class="vector_img">
+                </div>
 
                 <div class="pic_card-group">
                     <div class="pic_card">
@@ -108,6 +110,10 @@
                     </div>
                 </div>
 
+                <div class="vector">
+                    <img src="./assets/Vector_right_.svg" alt="vector-right" class="vector_img">
+                </div>
+
             </div>
         </div>
 
@@ -120,27 +126,24 @@
             <div class="notify_message">Get notified about new amazing articles</div>
 
             <form class="email_field">
-                <input type="text" class="email_form" placeholder="Email">
-                <button class="email_submit">Send</button>
+                <input type="text" class="email_form" name="Email" required placeholder="Email" minlength="10" maxlength="30" size="60">
+                <button type="submit" class="email_submit">Send</button>
             </form>
 
         </div>
 
     </section>
 
-    <section class="footer">
-        
-        <div class="footer_wrapper">
+    <footer class="footer">
 
+        <div class="footer_wrapper">
             <div class="footer_logo">
                 <a href="/" class="footer_logo-link">
                     <img src="./assets/logo.svg" alt="Wildlife" class="footer_logo-pic">
                     <span class="footer_logo-name">wildlife</span>
                 </a>
-
             </div>
-
-            <nav class="footer_nav">
+            <div class="footer_group_links">
                 <ul class="footer_list">
                     <li class="footer_item">
                         <a href="#!" class="footer_link">Articles</a>
@@ -152,8 +155,8 @@
                         <a href="#!" class="footer_link">Learn more</a>
                     </li>
                 </ul>
-            </nav>
-            <nav class="footer_icons">
+            </div>
+            <div class="footer_group_icons">
                 <ul class="footer_icon_list">
                     <li class="icons_items">
                         <a href="#!" class="icons_img-link"><img src="./assets/Facebook.svg" alt="Facebook-icon" class="icon_img"></a>
@@ -168,12 +171,11 @@
                         <a href="#!" class="icons_img-link"><img src="./assets/Telegram.svg" alt="Telegram-icon" class="icon-img"></a>
                     </li>
                 </ul>
-            </nav>
-
+            </div>
         </div>
-    
 
-    </section>
+
+    </footer>
 
 
 
