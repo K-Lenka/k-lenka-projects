@@ -291,16 +291,17 @@
   .email_field {
       display: flex;
       align-items: center;
-      padding: 59px 390px 240px;
+      padding: 59px 269px 240px;
   }
   
   .email_form {
       background: transparent;
-      width: 510px;
+      width: 540px;
       height: 60px;
       font-size: 23px;
       line-height: 27px;
       padding: 0 10px;
+      border: 1px solid #666666;
   }
   
   .email_submit {
@@ -366,11 +367,11 @@
   .footer_list {
       display: flex;
       flex-wrap: wrap;
-      justify-content: stretch;
+      align-items: center;
   }
   
   .footer_item {
-      padding: 0 85px;
+      padding: 0 65px;
   }
   
   .footer_link {
@@ -380,7 +381,6 @@
       color: #F7F7F7;
       text-decoration: none;
       white-space: nowrap;
-      margin: auto;
   }
   
   .footer_link:hover,
@@ -396,7 +396,6 @@
   .footer_icon_list {
       display: flex;
       flex-wrap: wrap;
-      justify-content: stretch;
       align-items: center;
   }
   
