@@ -23,7 +23,7 @@
   }
   
   .survival {
-      background-image: url("../assets/intro-bg.jpg");
+      background: url("../assets/intro-bg.jpg") no-repeat center;
       background-size: cover;
       background-color: #02160b;
   }
@@ -213,6 +213,12 @@
   
   .vector {
       cursor: pointer;
+      transition: .2s all;
+  }
+  
+  .vector:hover,
+  .vector:focus {
+      opacity: .75;
   }
   
   .pic_card-group {
