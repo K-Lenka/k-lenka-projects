@@ -24,7 +24,7 @@
   
   .survival {
       background: url("../assets/intro-bg.jpg") no-repeat center;
-      background-size: cover;
+      background-size: 100%;
       background-color: #02160b;
   }
   
@@ -206,7 +206,7 @@
   
   .articles_cards {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
       height: 360px
   }
@@ -235,10 +235,6 @@
       top: 70%;
       color: #fff;
       width: 60%;
-  }
-  
-  .pic_card {
-      grid-column: span 1;
   }
   
   .article_pic {
@@ -290,14 +286,14 @@
       line-height: 40px;
       text-align: center;
       color: #333333;
-      padding-top: 120px;
+      padding-top: 239px;
       padding-bottom: 60px;
   }
   
   .email_field {
       display: flex;
       align-items: center;
-      padding: 59px 269px 240px;
+      padding: 0 269px 240px;
   }
   
   .email_form {
