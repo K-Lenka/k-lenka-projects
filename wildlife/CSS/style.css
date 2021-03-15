@@ -24,7 +24,8 @@
   
   .survival {
       background: url("../assets/intro-bg.jpg") no-repeat center;
-      background-size: 100%;
+      background-size: cover;
+      min-width: 1440px;
       background-color: #02160b;
   }
   
@@ -39,17 +40,18 @@
       flex-wrap: wrap;
       align-items: flex-end;
       justify-content: space-between;
-      padding: 27px 0 0 0;
+      height: 80px;
+      padding: 19px 0 0 0;
   }
   
   .header_logo-name {
+      font-family: 'Roboto', sans-serif;
       width: 155px;
       height: 60px;
       margin-left: 15px;
       font-size: 32px;
       line-height: 60px;
       color: #F7F7F7;
-      font-family: 'Roboto', sans-serif;
       text-decoration: none;
       text-transform: uppercase;
   }
@@ -121,7 +123,7 @@
   /* intro stles start*/
   
   .main_survival {
-      min-height: 100vh;
+      height: 700px;
       padding-top: 120px;
   }
   
@@ -145,6 +147,7 @@
       font-size: 18px;
       line-height: 27px;
       margin-bottom: 49px;
+      letter-spacing: 0.47px;
   }
   
   .button_donate {
@@ -163,7 +166,6 @@
   
   .button_donate:hover {
       background: #E39128;
-      ;
   }
   
   .button_donate:active,
@@ -184,6 +186,7 @@
   }
   
   .article_title {
+      font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 48px;
@@ -195,6 +198,7 @@
   }
   
   .article_subtitle {
+      font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 24px;
@@ -227,12 +231,13 @@
   }
   
   .label_group {
+      font-family: 'Open Sans', sans-serif;
       position: absolute;
       margin: 0 auto;
       left: 0;
       right: 0;
       text-align: center;
-      top: 70%;
+      top: 68%;
       color: #fff;
       width: 60%;
   }
@@ -241,6 +246,7 @@
       position: relative;
       max-width: 300px;
       max-height: 360px;
+      cursor: pointer;
   }
   
   .pic_lable {
@@ -282,6 +288,7 @@
   }
   
   .notify_message {
+      font-family: 'Open Sans', sans-serif;
       font-size: 27px;
       line-height: 40px;
       text-align: center;
@@ -291,6 +298,7 @@
   }
   
   .email_field {
+      font-family: 'Roboto', sans-serif;
       display: flex;
       align-items: center;
       padding: 0 269px 240px;
@@ -307,6 +315,7 @@
   }
   
   .email_submit {
+      font-family: 'Roboto', sans-serif;
       width: 120px;
       height: 60px;
       font-size: 23px;
@@ -318,11 +327,20 @@
       border-radius: 0px 5px 5px 0px;
       color: #F7F7F7;
   }
+  
+  .email_submit:hover {
+      background: #E39128;
+  }
+  
+  .email_submit:active,
+  .email_submit:focus {
+      background: #8F5613;
+  }
   /*Get Notified style end*/
   /*Footer style start*/
   
   .footer {
-      width: 100%;
+      min-width: 1440px;
       height: 359px;
       background-color: #181617;
       background: url(../assets/Footer.jpg) no-repeat center;
@@ -365,7 +383,7 @@
   }
   
   .footer_group_links {
-      padding: 0 110px 0 110px;
+      padding: 0 120px;
   }
   
   .footer_list {
@@ -396,11 +414,15 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      width: 240px;
+      height: 40px;
   }
   
   .icon_img {
+      display: inline-block;
       width: 40px;
       height: 40px;
+      cursor: pointer;
   }
   
   .icons_img-link::hover,
