@@ -390,7 +390,7 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      padding: 0 120px 0 135px;
+      padding: 0 116px 0 123px;
   }
   
   #AboutUs {
@@ -432,22 +432,20 @@
   
   #Facebook-img {
       background: url(../assets/Facebook.svg) no-repeat;
-      margin-right: 25px;
+      margin-right: 27px;
   }
   
   #Instagram-img {
       background: url(../assets/Instagram.svg) no-repeat;
-      margin-right: 25px;
+      margin-right: 27px;
   }
   
   #Pinterest-img {
       background: url(../assets/Pinterest.svg) no-repeat;
-      margin-right: 24px;
+      margin-right: 27px;
   }
   
-  #Youtube-img {
-      background: url(../assets/YouTube.svg) no-repeat;
-      width: 55px;
-      height: 55px;
+  #Telegram-img {
+      background: url(../assets/Telegram.svg) no-repeat;
   }
   /*Footer style end*/
