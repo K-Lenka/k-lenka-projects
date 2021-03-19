@@ -1,4 +1,29 @@
 const piano = document.querySelector('.piano');
+const buttonSwitch = document.querySelector('.btn-container')
+
+const btnLetters = document.querySelector('#letters');
+const btnNotes = document.querySelector('#notes');
+const btns = document.querySelector('.btn')
+
+
+//Switch between buttons
+btnNotes.addEventListener('click', function(event) {
+    if (event.target.classList.contains('btn-active')) {
+
+    } else {
+        btnLetters.classList.remove('btn-active');
+        event.target.classList.add('btn-active');
+    }
+});
+
+btnLetters.addEventListener('click', function(event) {
+    if (event.target.classList.contains('btn-active')) {
+
+    } else {
+        btnNotes.classList.remove('btn-active');
+        event.target.classList.add('btn-active');
+    }
+});
 
 
 //События мыши
@@ -37,53 +62,13 @@ function toggleActiveClasses(key) {
     ['piano-key-active', 'piano-key-active-pseudo', 'piano-key-remove-mouse'].forEach(el => key.classList.toggle(el));
 }
 
+function toggleBtnActiveClass(key) {
+    ['btn-active'].forEach(el => key.classList.toggle(el));
+}
+
 //Проигрывание звука на странице
 function playAudio(audio) {
     if (!audio) return;
     audio.currentTime = 0;
     audio.play();
 }
-
-
-
-
-// window.addEventListener('keydown', (e) => {
-//     const audio = document.querySelector(`audio[data-key="${e.code}"]`);
-//     const key = document.querySelector(`.piano-key[data-key = "${e.code}"]`);
-//     if (!audio) return; // stop the function
-//     audio.currentTime = 0;
-//     audio.play();
-//     key.classList.add('active');
-
-// });
-
-
-// piano.addEventListener('click', (event) => {
-//     if (event.target.classList.contains('piano-key')) {
-//         pianoКeys.forEach((el) => {
-//             if (el.classList.contains('active')) {
-//                 el.classList.remove('active');
-//             }
-//         });
-//         event.target.classList.add('active');
-//     }
-// });
-
-
-// function playAudio(keyId) {
-//     const audio = document.querySelector(`audio[data-key="${keyId}"]`);
-//     const key = document.querySelector(`.piano-key[data-key="${keyId}"]`)
-//     if (!audio) return;
-//     audio.currentTime = 0;
-//     audio.play();
-// }
-
-
-// const playAudioFromCLick = (event) => {
-//     const keyId = this.getAttribute('data-key');
-//     playAudio(keyId);
-// }
-
-// for (let i = 0; i < pianoКeys.length; i++) {
-//     pianoКeys[i].addEventListener('click', playAudioFromCLick);
-// }
