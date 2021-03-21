@@ -6,7 +6,7 @@ const btnFullScreen = document.querySelector('#fullScreenBtn');
 const containerBtn = document.querySelector('.btn-container');
 
 
-//Full screen toggle
+//toggle Full screen 
 btnFullScreen.addEventListener("click", toggleFullScreen);
 
 function toggleFullScreen() {
@@ -17,7 +17,7 @@ function toggleFullScreen() {
     }
 }
 
-//Switch between buttons
+//toggle buttons
 containerBtn.addEventListener('click', (event) => {
     if (!event.target.classList.contains('btn-active')) {
         btnLetters.classList.toggle('btn-active');
@@ -26,7 +26,12 @@ containerBtn.addEventListener('click', (event) => {
     }
 });
 
-//События мыши
+function toggleLActiveLetterClass() {
+    pianoKeys.forEach(el => el.classList.toggle('piano-key-letter'));
+}
+
+
+//playAudio when mouse clicked
 pianoKeys.forEach((elem) => {
     elem.addEventListener('mouseover', (event) => {
         const key = event.target;
@@ -59,7 +64,7 @@ piano.addEventListener('mouseup', (event) => {
     }
 });
 
-//При нажатии клавиши клавиатуры вызываем функцию playAudio
+//playAudio when key pressed on the keyboard
 window.addEventListener('keydown', (event) => {
     const key = document.querySelector(`div[data-key="${event.code}"]`);
     if (!key.classList.contains('piano-key-active')) {
@@ -78,13 +83,7 @@ function toggleActiveClasses(key) {
     ['piano-key-active', 'piano-key-active-pseudo', 'piano-key-remove-mouse'].forEach(el => key.classList.toggle(el));
 }
 
-function toggleLActiveLetterClass() {
-
-    pianoKeys.forEach(el => el.classList.toggle('piano-key-letter'));
-}
-
-
-//Проигрывание звука на странице
+//Play Audio
 function playAudio(audio) {
     if (!audio) return;
     audio.currentTime = 0;
