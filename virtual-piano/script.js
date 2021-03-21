@@ -1,9 +1,7 @@
 const piano = document.querySelector('.piano');
-const buttonSwitch = document.querySelector('.btn-container')
 const pianoKeys = document.querySelectorAll('.piano-key');
 const btnLetters = document.querySelector('#letters');
 const btnNotes = document.querySelector('#notes');
-const btns = document.querySelector('.btn');
 const btnFullScreen = document.querySelector('#fullScreenBtn');
 const containerBtn = document.querySelector('.btn-container');
 
@@ -63,7 +61,7 @@ piano.addEventListener('mouseup', (event) => {
 
 //При нажатии клавиши клавиатуры вызываем функцию playAudio
 window.addEventListener('keydown', (event) => {
-    const key = event.target;
+    const key = document.querySelector(`div[data-key="${event.code}"]`);
     if (!key.classList.contains('piano-key-active')) {
         toggleActiveClasses(key);
         const audio = document.querySelector(`audio[data-key = "${event.code}"]`);
@@ -72,7 +70,7 @@ window.addEventListener('keydown', (event) => {
 });
 
 window.addEventListener('keyup', (event) => {
-    const key = document.querySelector(`div[data-key = "${event.code}"] `);
+    const key = document.querySelector(`div[data-key = "${event.code}"]`);
     toggleActiveClasses(key);
 });
 
