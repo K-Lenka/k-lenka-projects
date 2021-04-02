@@ -1,3 +1,156 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
+    position: relative;
+    width: 1920px;
+    height: 6290px;
+    margin: 0;
+    padding: 0;
     font-family: 'Merriweather', serif, 'Rubik', sans-serif;
 }
+
+.header-wrapper {
+    height: 130px;
+    padding: 55px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    width: 1800px;
+    height: 90px;
+    margin: 0 auto;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 44px;
+    background: #FCFCFC;
+}
+
+.watch-animal-online_section {
+    padding: 80px;
+}
+
+.list {
+    cursor: pointer;
+}
+
+.sidebar {
+    border: 2px solid #F0F0F0;
+    width: 90px;
+    height: 80vh;
+    position: fixed;
+}
+
+.icon_img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.header-subtitle {
+    font-family: 'Rubik', sans-serif;
+    width: 112px;
+    height: 26px;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #626262;
+}
+
+.header-title {
+    max-width: 697px;
+    height: 318px;
+    font-size: 84px;
+    line-height: 106px;
+}
+
+.intro-title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.header-buttons {
+    display: inline-block;
+}
+
+.header_btn {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 75px;
+    width: 267px;
+    height: 61px;
+    color: white;
+    border-radius: 5px;
+}
+
+#choose-zoo {
+    background-color: #080029;
+}
+
+#watch-online {
+    color: #080029;
+}
+
+.panda_img {
+    position: absolute;
+    width: 696px;
+    height: 673px;
+}
+
+.how-zoo-works {
+    display: flex;
+    height: 980px;
+    background: #D9E8FF;
+}
+
+.famous-pets {
+    display: flex;
+    height: 896px;
+    background: #D9E8FF;
+}
+
+.pay-and-feed {
+    display: flex;
+    height: 1300px;
+    background-color: #FCFCFC;
+}
+
+.feedback {
+    display: flex;
+    height: 616px;
+    background-color: #080029;
+}
+
+.Zoogeography {
+    display: flex;
+    height: 862px;
+    background-color: #FCFCFC;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 766px;
+    background-color: #0B0B0B;
+}
+
+@media (max-width: 1200px) {}
