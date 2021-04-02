@@ -18,6 +18,9 @@ body {
     background: #FCFCFC
 }
 
+
+/* First section */
+
 .wrapper {
     height: 870px;
     background: #FCFCFC
@@ -58,8 +61,16 @@ body {
     margin: 33px 92px 29px 184px;
 }
 
+.navbar-link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
 #about {
     margin-right: 130px;
+    font-weight: 500;
+    font-size: 18px;
+    font: bolder;
 }
 
 #map {
@@ -185,10 +196,66 @@ body {
     height: 673px;
 }
 
+
+/* Second section */
+
 .how-zoo-works {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
     height: 980px;
-    background: #D9E8FF;
+    background: #FCFCFC;
+}
+
+.text-block {
+    width: 696px;
+    height: 477px;
+}
+
+.subtitle {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 145%;
+    color: #080029;
+    margin: 50px 0;
+}
+
+.aboutAppZoo {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154%;
+    color: #747474;
+    margin: 40px 0;
+}
+
+.tryNow_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 75px;
+    width: 218px;
+    height: 61px;
+    background: #0F0049;
+    border-radius: 5px;
+    color: white;
+    margin: 60px 478px 0 0;
+}
+
+.lion-image-block {
+    width: 512px;
+    height: 760px;
+    margin: 110px 224px 110px 244px;
+}
+
+.lion_img {
+    width: 512px;
+    height: 760px;
 }
 
 .famous-pets {
