@@ -15,36 +15,72 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif, 'Rubik', sans-serif;
+    background: #FCFCFC
 }
 
-.header-wrapper {
-    height: 130px;
-    padding: 55px;
+.wrapper {
+    height: 870px;
+    background: #FCFCFC
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    position: fixed;
     width: 1800px;
     height: 90px;
-    margin: 0 auto;
+    margin: 55px 79px 0 41px;
     border: 2px solid #F0F0F0;
     box-sizing: border-box;
+    background: #FCFCFC
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    padding: 44px;
+    height: 725px;
+    margin: auto;
     background: #FCFCFC;
 }
 
 .watch-animal-online_section {
-    padding: 80px;
+    display: flex;
+    width: 699px;
+    height: 488px;
+    margin: 25px 244px 27px 242px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 33px 92px 29px 184px;
+}
+
+#about {
+    margin-right: 130px;
+}
+
+#map {
+    margin-right: 130px;
+}
+
+#zoos {
+    margin-right: 130px;
+}
+
+#contact {
+    margin-right: 130px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #080029;
+}
+
+#account-icon {
+    margin-left: 672px;
 }
 
 .list {
@@ -52,10 +88,43 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     border: 2px solid #F0F0F0;
     width: 90px;
-    height: 80vh;
+    height: 760px;
+    margin: -90px 41px;
     position: fixed;
+}
+
+.sidebar-icons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#instgram-icon {
+    margin-top: 273px;
+}
+
+#fb-icon {
+    margin-top: 50.23px;
+}
+
+#twitter-icon {
+    margin-top: 53.14px;
+}
+
+#arrow-btn {
+    margin-top: 101px;
+    margin-bottom: 100px;
+}
+
+.logo-wrapper {
+    margin: 25px 19.28px 25px 18.85px;
 }
 
 .icon_img {
@@ -64,7 +133,8 @@ body {
     cursor: pointer;
 }
 
-.header-subtitle {
+.title {
+    display: inline;
     font-family: 'Rubik', sans-serif;
     width: 112px;
     height: 26px;
@@ -75,7 +145,7 @@ body {
 }
 
 .header-title {
-    max-width: 697px;
+    width: 699px;
     height: 318px;
     font-size: 84px;
     line-height: 106px;
@@ -87,21 +157,21 @@ body {
     font-weight: bold;
 }
 
-.header-buttons {
-    display: inline-block;
-}
-
 .header_btn {
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 20px 75px;
-    width: 267px;
-    height: 61px;
-    color: white;
     border-radius: 5px;
+    width: 250px;
+    height: 61px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 #choose-zoo {
+    text-align: center;
+    padding: 20px;
+    color: white;
     background-color: #080029;
 }
 
