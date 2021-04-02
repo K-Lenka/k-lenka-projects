@@ -147,8 +147,6 @@ body {
 .title {
     display: inline;
     font-family: 'Rubik', sans-serif;
-    width: 112px;
-    height: 26px;
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.115em;
@@ -201,7 +199,6 @@ body {
 
 .how-zoo-works {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
@@ -258,10 +255,34 @@ body {
     height: 760px;
 }
 
+
+/* Third section */
+
 .famous-pets {
     display: flex;
+    align-items: center;
     height: 896px;
     background: #D9E8FF;
+}
+
+.text-pets-block {
+    width: 326px;
+    height: 364px;
+    margin: 393px 43px 347px 243px;
+}
+
+.img-cards-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1064px;
+    height: 696px;
+}
+
+.img-card {
+    width: 30%;
+    margin: calc(10%/6);
 }
 
 .pay-and-feed {
