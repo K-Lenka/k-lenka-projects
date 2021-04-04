@@ -142,7 +142,7 @@
             cursor: pointer;
         }
         
-        .title {
+        .title_header {
             display: inline;
             font-family: 'Rubik', sans-serif;
             font-size: 22px;
@@ -151,7 +151,7 @@
             color: #626262;
         }
         
-        .header-title {
+        .header-title-block {
             width: 699px;
             height: 318px;
             font-size: 84px;
@@ -288,34 +288,51 @@
             background-color: #FCFCFC;
         }
         
+        .title {
+            display: inline;
+            font-family: 'Rubik', sans-serif;
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 0.115em;
+            color: #0B0B0B;
+        }
+        
+        .payAndFeed-title {
+            margin: 100px 1300px 30px 428px;
+        }
+        
         .pay {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
         }
         
-        .byVisa {
-            width: 824px;
-            height: 312px;
+        .byVisa-block {
+            margin: 0 668px 60px 428px;
         }
         
         .payment-block {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            width: 824px;
-            height: 312px;
-            margin-right: 136px;
         }
         
         .selectedAnimal {
-            width: 824px;
-            height: 312px;
+            margin: 0 852px 101px 244px;
+        }
+        
+        .first-vector-block {
+            padding: 0 151px 0 115px;
         }
         
         #first-arrow {
             width: 197px;
             height: 97px;
+        }
+        
+        .second-vector-block {
+            padding: 146px 0 0 101px;
+            margin-bottom: -29px;
         }
         
         #second-arrow {
@@ -351,9 +368,13 @@
             margin-left: 40px;
         }
         
-        .visa {
+        .visa-text-block {
             width: 456px;
             height: 166px;
+        }
+        
+        .payment {
+            margin: 0 116px 47px 612px;
         }
         
         .about-payment {
