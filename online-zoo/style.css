@@ -157,12 +157,14 @@
             height: 318px;
             font-size: 84px;
             line-height: 106px;
+            margin-top: 60px;
         }
         
         .intro-title {
             font-family: 'Merriweather', serif;
             font-style: normal;
             font-weight: bold;
+            margin-bottom: 10px;
         }
         
         .header_btn {
@@ -178,13 +180,14 @@
         
         #choose-zoo {
             text-align: center;
-            padding: 20px;
             color: white;
+            margin-right: 60px;
             background-color: #080029;
         }
         
         #watch-online {
             color: #080029;
+            margin-left: 0;
         }
         
         .panda_img {
@@ -451,23 +454,55 @@
         .review-block {
             display: flex;
             flex-wrap: wrap;
-            width: 1064px;
-            height: 414px;
+        }
+        
+        .first-review-block {
+            margin: 102px 40px 100px 0;
+        }
+        
+        .second-review-block {
+            margin: 139px 60px 195px 0;
         }
         
         .more-reviews_btn {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
             width: 218px;
             height: 26px;
+            color: #FCFCFC;
+        }
+        
+        .more-review-link {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        #arrow-link {
+            width: 40px;
+            height: 14px;
         }
         
         .review-box {
+            display: flex;
+            flex-wrap: wrap;
+            width: 512px;
+            height: 273px;
             background: #FCFCFC;
             border-radius: 15px;
+        }
+        
+        .left-box {
+            margin: 20px 0 30px 0;
+        }
+        
+        .left-slider {
+            margin: 0 20px 0 0;
         }
         
         .avatar-img {
             width: 46px;
             height: 46px;
+            margin: 40px 19px 0 40px;
         }
         
         .name {
@@ -477,6 +512,7 @@
             font-size: 24px;
             line-height: 135%;
             height: 32px;
+            margin: 47px 226px 0 0;
             color: #0B0B0B;
         }
         
@@ -488,6 +524,7 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 154%;
+            margin: 37px 40px 73px 40px;
             color: #181818;
         }
         /* Sixth section */
