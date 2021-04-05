@@ -533,8 +533,66 @@
         
         .Zoogeography {
             display: flex;
+            flex-wrap: wrap;
+            align-items: center;
             height: 862px;
             background-color: #FCFCFC;
+        }
+        
+        .card-block {
+            margin: 100px 0 100px 243px;
+        }
+        
+        .eagle-card-block {
+            display: grid;
+            align-items: center;
+            background: #FCFCFC;
+            box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+            border-radius: 15px;
+            ;
+        }
+        
+        .card-title {
+            display: inline;
+            font-family: 'Rubik', sans-serif;
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 0.115em;
+            color: #000000;
+        }
+        
+        .card-name {
+            font-family: 'Merriweather', serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 145%;
+            margin: 62px 0 40px 0;
+            color: #080029;
+        }
+        
+        .card-text {
+            width: 264px;
+            height: 84px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 154%;
+            margin: 37px 40px 73px 40px;
+            color: #747474;
+        }
+        
+        .map-img-block {
+            position: relative;
+            Width: 1216px;
+            Height: 698px;
+            margin: 50px 91px 113px 24px;
+        }
+        
+        .world-map_img {
+            Width: 1216px;
+            Height: 698px;
         }
         /* Seventh section */
         
