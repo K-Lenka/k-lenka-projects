@@ -643,7 +643,7 @@
             Width: 1216px;
             Height: 698px;
         }
-        /* Seventh section             */
+        /* Seventh section */
         
         .footer {
             width: 100%;
@@ -797,5 +797,3 @@
             text-align: right;
             color: #BCBCBC;
         }
-        
-        @media (max-width: 1200px) {}
