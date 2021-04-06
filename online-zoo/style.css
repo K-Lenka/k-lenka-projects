@@ -613,6 +613,7 @@
         
         .marker {
             position: absolute;
+            cursor: pointer;
         }
         
         .eagle-marker {
