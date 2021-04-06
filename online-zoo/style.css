@@ -282,6 +282,8 @@
         }
         
         .img-card {
+            width: 328px;
+            height: 328px;
             width: 30%;
             margin: calc(10%/6);
         }
@@ -604,7 +606,6 @@
         }
         
         .map-img-block {
-            position: relative;
             Width: 1216px;
             Height: 698px;
             margin: 50px 91px 113px 24px;
