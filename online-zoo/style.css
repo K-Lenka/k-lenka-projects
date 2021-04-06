@@ -611,6 +611,34 @@
             margin: 50px 91px 113px 24px;
         }
         
+        .marker {
+            position: absolute;
+        }
+        
+        .eagle-marker {
+            width: 96px;
+            height: 124px;
+            margin: 164px 993px 410px 127px;
+        }
+        
+        .elligator-marker {
+            width: 69px;
+            height: 89px;
+            margin: 216px 881px 395px 273px;
+        }
+        
+        .gorilla-marker {
+            width: 69px;
+            height: 89px;
+            margin: 343px 563px 268px 591px;
+        }
+        
+        .panda-marker {
+            width: 69px;
+            height: 89px;
+            margin: 204px 239px 405px 908px;
+        }
+        
         .world-map_img {
             Width: 1216px;
             Height: 698px;
