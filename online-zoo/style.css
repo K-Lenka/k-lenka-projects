@@ -676,6 +676,12 @@
             justify-content: space-between;
         }
         
+        .logo-link_footer {
+            width: 153px;
+            height: 117px;
+            margin-bottom: 192px;
+        }
+        
         #logo-zoo {
             width: 153px;
             height: 117px;
