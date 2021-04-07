@@ -67,8 +67,16 @@
             #about {
                 margin-right: 130px;
                 font-weight: 500;
+                font-weight: bold;
                 font-size: 18px;
-                font: bolder;
+            }
+            
+            #about:hover {
+                font-weight: normal;
+            }
+            
+            .bold:hover {
+                color: #200392;
             }
             
             #map {
