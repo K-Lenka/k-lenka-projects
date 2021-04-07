@@ -1,806 +1,847 @@
-        html {
-            box-sizing: border-box;
-        }
-        
-        *,
-        *::before,
-        *::after {
-            box-sizing: inherit;
-        }
-        
-        body {
-            position: relative;
-            width: 1920px;
-            height: 6290px;
-            margin: 0;
-            padding: 0;
-            font-family: 'Merriweather', serif, 'Rubik', sans-serif;
-            background: #FCFCFC
-        }
-        /* First section */
-        
-        .wrapper {
-            height: 870px;
-            background: #FCFCFC
-        }
-        
-        .header {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            width: 1800px;
-            height: 90px;
-            margin: 55px 79px 0 41px;
-            border: 2px solid #F0F0F0;
-            box-sizing: border-box;
-            background: #FCFCFC
-        }
-        
-        .main {
-            display: flex;
-            flex-wrap: wrap;
-            height: 725px;
-            margin: auto;
-            background: #FCFCFC;
-        }
-        
-        .watch-animal-online_section {
-            display: flex;
-            width: 699px;
-            height: 488px;
-            margin: 25px 244px 27px 242px;
-        }
-        
-        .navbar-list {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 33px 92px 29px 184px;
-        }
-        
-        .navbar-link {
-            font-family: 'Rubik', sans-serif;
-            font-size: 18px;
-        }
-        
-        #about {
-            margin-right: 130px;
-            font-weight: 500;
-            font-size: 18px;
-            font: bolder;
-        }
-        
-        #map {
-            margin-right: 130px;
-        }
-        
-        #zoos {
-            margin-right: 130px;
-        }
-        
-        #contact {
-            margin-right: 130px;
-        }
-        
-        .navbar-link {
-            text-decoration: none;
-            color: #080029;
-        }
-        
-        #account-icon {
-            margin-left: 672px;
-        }
-        
-        .list {
-            cursor: pointer;
-        }
-        
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            border: 2px solid #F0F0F0;
-            width: 90px;
-            height: 760px;
-            margin: -90px 41px;
-            position: fixed;
-            background: #FCFCFC;
-        }
-        
-        .sidebar-icons-list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        #instgram-icon {
-            margin-top: 273px;
-        }
-        
-        #fb-icon {
-            margin-top: 50.23px;
-        }
-        
-        #twitter-icon {
-            margin-top: 53.14px;
-        }
-        
-        #arrow-btn {
-            margin-top: 101px;
-            margin-bottom: 100px;
-        }
-        
-        .logo-wrapper {
-            padding: 25px 19.28px 20px 18.85px;
-            border-bottom: #F0F0F0 solid;
-        }
-        
-        .icon_img {
-            width: 40px;
-            height: 40px;
-            cursor: pointer;
-        }
-        
-        .title_header {
-            display: inline;
-            font-family: 'Rubik', sans-serif;
-            font-size: 22px;
-            line-height: 26px;
-            letter-spacing: 0.115em;
-            margin-bottom: 35px;
-            color: #626262;
-        }
-        
-        .header-title-block {
-            width: 699px;
-            height: 318px;
-            font-size: 84px;
-            line-height: 106px;
-            margin-top: 60px;
-        }
-        
-        .intro-title {
-            font-family: 'Merriweather', serif;
-            font-style: normal;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
-        .header_btn {
-            border-radius: 5px;
-            width: 250px;
-            height: 61px;
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 21px;
-        }
-        
-        #choose-zoo {
-            text-align: center;
-            color: white;
-            margin-right: 60px;
-            background-color: #080029;
-        }
-        
-        #watch-online {
-            color: #080029;
-            margin-left: 0;
-        }
-        
-        .panda_img {
-            position: absolute;
-            width: 696px;
-            height: 673px;
-        }
-        /* Second section */
-        
-        .how-zoo-works {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: start;
-            height: 980px;
-            background: #FCFCFC;
-        }
-        
-        .text-block {
-            width: 696px;
-            height: 477px;
-        }
-        
-        .subtitle {
-            font-family: 'Merriweather', serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 145%;
-            color: #080029;
-            margin: 50px 0;
-        }
-        
-        .aboutAppZoo {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 154%;
-            color: #747474;
-            /* margin: 40px 0; */
-        }
-        
-        .tryNow_btn {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            font-family: 'Rubik', sans-serif;
-            padding: 20px 75px;
-            width: 218px;
-            height: 61px;
-            background: #0F0049;
-            border-radius: 5px;
-            color: white;
-            margin: 60px 478px 0 0;
-        }
-        
-        .lion-image-block {
-            width: 512px;
-            height: 760px;
-            margin: 110px 224px 110px 244px;
-        }
-        
-        .lion_img {
-            width: 512px;
-            height: 760px;
-        }
-        /* Third section */
-        
-        .famous-pets {
-            display: flex;
-            align-items: center;
-            height: 896px;
-            background: #D9E8FF;
-        }
-        
-        .text-pets-block {
-            width: 326px;
-            height: 364px;
-            margin: 393px 43px 347px 243px;
-        }
-        
-        .img-cards-block {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
-            width: 1064px;
-            height: 696px;
-        }
-        
-        .img-card {
-            width: 328px;
-            height: 328px;
-            width: 30%;
-            margin: calc(10%/6);
-        }
-        /* Forth section */
-        
-        .pay-and-feed {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 1300px;
-            background-color: #FCFCFC;
-        }
-        
-        .title {
-            display: inline;
-            font-family: 'Rubik', sans-serif;
-            font-size: 22px;
-            line-height: 26px;
-            letter-spacing: 0.115em;
-            color: #0B0B0B;
-        }
-        
-        .payAndFeed-title {
-            margin: 100px 1300px 30px 428px;
-        }
-        
-        .pay {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        
-        .byVisa-block {
-            margin: 0 668px 60px 428px;
-        }
-        
-        .payment-block {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        
-        .selectedAnimal {
-            margin: 0 852px 101px 244px;
-        }
-        
-        .first-vector-block {
-            padding: 0 151px 0 115px;
-        }
-        
-        #first-arrow {
-            width: 197px;
-            height: 97px;
-        }
-        
-        .second-vector-block {
-            padding: 146px 0 0 101px;
-            margin-bottom: -29px;
-        }
-        
-        #second-arrow {
-            width: 240.45px;
-            height: 194.46px;
-        }
-        
-        .cartoon-pic {
-            width: 290px;
-            height: 259px
-        }
-        
-        .pay-title {
-            font-family: 'Merriweather', serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 145%;
-            color: #080029;
-        }
-        
-        .pay-text {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 154%;
-            margin: 20px 0;
-            color: #747474;
-        }
-        
-        .text {
-            margin-left: 40px;
-        }
-        
-        .visa-text-block {
-            width: 456px;
-            height: 166px;
-        }
-        
-        .payment {
-            margin: 0 116px 47px 612px;
-        }
-        
-        .about-payment {
-            width: 456px;
-            height: 166px;
-        }
-        
-        .about-treats {
-            width: 456px;
-            height: 218px;
-        }
-        /* Fifth section */
-        
-        .feedback {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            height: 616px;
-            background-color: #080029;
-        }
-        
-        .fedback-text-block {
-            width: 512px;
-            height: 416px;
-            margin: 100px 40px 100px 243px;
-        }
-        
-        .feedback-title {
-            display: inline;
-            font-family: 'Rubik', sans-serif;
-            font-size: 22px;
-            line-height: 26px;
-            letter-spacing: 0.115em;
-            color: #FCFCFC;
-        }
-        
-        .feedback-subtitle {
-            font-family: 'Merriweather', serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 145%;
-            margin: 62px 0 40px 0;
-            color: #FCFCFC;
-        }
-        
-        .feedback-text {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 154%;
-            margin: 0;
-            color: #FCFCFC;
-        }
-        
-        .feedback_btn {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            font-family: 'Rubik', sans-serif;
-            padding: 20px 75px;
-            width: 287px;
-            height: 64px;
-            background-color: #080029;
-            border: 2px solid #FCFCFC;
-            border-radius: 5px;
-            color: white;
-            margin: 60px 0 0 0;
-        }
-        
-        .review-block {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        .first-review-block {
-            margin: 102px 40px 100px 0;
-        }
-        
-        .second-review-block {
-            margin: 139px 60px 195px 0;
-        }
-        
-        .more-reviews_btn {
-            font-family: 'Rubik', sans-serif;
-            font-weight: 500;
-            width: 218px;
-            height: 26px;
-            color: #FCFCFC;
-        }
-        
-        .more-review-link {
-            text-decoration: none;
-            cursor: pointer;
-        }
-        
-        #arrow-link {
-            width: 40px;
-            height: 14px;
-        }
-        
-        .review-box {
-            display: flex;
-            flex-wrap: wrap;
-            width: 512px;
-            height: 273px;
-            background: #FCFCFC;
-            border-radius: 15px;
-        }
-        
-        .left-box {
-            margin: 20px 0 30px 0;
-        }
-        
-        .left-slider {
-            margin: 0 20px 0 0;
-        }
-        
-        .avatar-img {
-            width: 46px;
-            height: 46px;
-            margin: 40px 19px 0 40px;
-        }
-        
-        .name {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 135%;
-            height: 32px;
-            margin: 47px 226px 0 0;
-            color: #0B0B0B;
-        }
-        
-        .review-text {
-            width: 432px;
-            height: 84px;
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 154%;
-            margin: 37px 40px 73px 40px;
-            color: #181818;
-        }
-        /* Sixth section */
-        
-        .Zoogeography {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            height: 862px;
-            background-color: #FCFCFC;
-        }
-        
-        .card-block {
-            margin: 100px 0 100px 243px;
-        }
-        
-        .eagle-img-card {
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
-        
-        .eagle-card-block {
-            align-items: center;
-            width: 344px;
-            height: 512px;
-            background: #FCFCFC;
-            box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
-            border-radius: 15px;
-            margin-top: 62px;
-        }
-        
-        .card-title {
-            display: inline;
-            font-family: 'Rubik', sans-serif;
-            font-size: 22px;
-            line-height: 26px;
-            letter-spacing: 0.115em;
-            color: #000000;
-        }
-        
-        .card-name {
-            font-family: 'Merriweather', serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 145%;
-            margin: 20px 123px 0 122px;
-            color: #080029;
-        }
-        
-        .card-text {
-            text-align: center;
-            width: 264px;
-            height: 84px;
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 154%;
-            margin: 20px 40px 52px 40px;
-            color: #747474;
-        }
-        
-        .whatch-now-link {
-            text-decoration: none;
-            padding: 0 5px 40px 112px;
-        }
-        
-        .whatch-now_btn {
-            color: #3888FF;
-        }
-        
-        #card-arrow-link {
-            color: #3888FF;
-        }
-        
-        .map-img-block {
-            Width: 1216px;
-            Height: 698px;
-            margin: 50px 91px 113px 24px;
-        }
-        
-        .marker {
-            position: absolute;
-            cursor: pointer;
-        }
-        
-        .eagle-marker {
-            width: 96px;
-            height: 124px;
-            margin: 164px 993px 410px 127px;
-        }
-        
-        .elligator-marker {
-            width: 69px;
-            height: 89px;
-            margin: 216px 881px 395px 273px;
-        }
-        
-        .gorilla-marker {
-            width: 69px;
-            height: 89px;
-            margin: 343px 563px 268px 591px;
-        }
-        
-        .panda-marker {
-            width: 69px;
-            height: 89px;
-            margin: 204px 239px 405px 908px;
-        }
-        
-        .world-map_img {
-            Width: 1216px;
-            Height: 698px;
-        }
-        /* Seventh section */
-        
-        .footer {
-            width: 100%;
-            height: 766px;
-            background-color: #0B0B0B;
-        }
-        
-        .footer-conteiner {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            align-items: center;
-            padding: 100px;
-        }
-        
-        .logo-block {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .navigation-list {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .logo-container {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .logo-link_footer {
-            width: 153px;
-            height: 117px;
-            margin-bottom: 192px;
-        }
-        
-        #logo-zoo {
-            width: 153px;
-            height: 117px;
-            margin-bottom: 192px;
-        }
-        
-        #yemDegital-logo {
-            width: 118px;
-            height: 62px;
-        }
-        
-        #shool-logo {
-            width: 128px;
-            height: 47px;
-        }
-        
-        #x {
-            width: 9px;
-            height: 19px;
-            margin: 22px 24px 21px 24px;
-        }
-        
-        .nav-title {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 22px;
-            line-height: 26px;
-            letter-spacing: 0.115em;
-            color: #FCFCFC;
-            margin-bottom: 10px;
-        }
-        
-        .link_footer {
-            margin-top: 30px;
-        }
-        
-        .nav-links_footer {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 154%;
-            color: #BCBCBC;
-            text-decoration: none;
-        }
-        
-        .title_footer {
-            display: inline;
-            font-family: 'Rubik', sans-serif;
-            font-size: 22px;
-            line-height: 26px;
-            letter-spacing: 0.115em;
-            color: #FCFCFC;
-        }
-        
-        .text_footer {
-            width: 332px;
-            height: 84px;
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 154%;
-            margin: 46px 0 40px 0;
-            color: #BCBCBC;
-        }
-        
-        .button_footer {
-            width: 339px;
-            height: 61px;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            font-family: 'Rubik', sans-serif;
-            padding: 20px 75px;
-            background-color: #0B0B0B;
-            border: 2px solid #FCFCFC;
-            border-radius: 5px;
-            color: white;
-        }
-        
-        .footer-links {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 85px;
-        }
-        
-        .social-link {
-            margin: calc(10%/6);
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
-            text-decoration: none;
-            color: #BCBCBC;
-        }
-        
-        .design {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            width: 1432px;
-            height: 23px;
-            margin: 0 244px 59px 244px;
-            border-top: 1px solid #747474;
-            padding: 50px;
-        }
-        
-        .Copyright {
-            font-family: 'Rubik', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 145%;
-            text-align: right;
-            color: #BCBCBC;
-        }
+            html {
+                box-sizing: border-box;
+            }
+            
+            *,
+            *::before,
+            *::after {
+                box-sizing: inherit;
+            }
+            
+            body {
+                position: relative;
+                width: 1920px;
+                height: 6290px;
+                margin: 0;
+                padding: 0;
+                font-family: 'Merriweather', serif, 'Rubik', sans-serif;
+                background: #FCFCFC
+            }
+            /* First section */
+            
+            .wrapper {
+                height: 870px;
+                background: #FCFCFC
+            }
+            
+            .header {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 1800px;
+                height: 90px;
+                margin: 55px 79px 0 41px;
+                border: 2px solid #F0F0F0;
+                box-sizing: border-box;
+                background: #FCFCFC
+            }
+            
+            .main {
+                display: flex;
+                flex-wrap: wrap;
+                height: 725px;
+                margin: auto;
+                background: #FCFCFC;
+            }
+            
+            .watch-animal-online_section {
+                display: flex;
+                width: 699px;
+                height: 488px;
+                margin: 25px 244px 27px 242px;
+            }
+            
+            .navbar-list {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin: 33px 92px 29px 184px;
+            }
+            
+            .navbar-link {
+                font-family: 'Rubik', sans-serif;
+                font-size: 18px;
+            }
+            
+            #about {
+                margin-right: 130px;
+                font-weight: 500;
+                font-size: 18px;
+                font: bolder;
+            }
+            
+            #map {
+                margin-right: 130px;
+            }
+            
+            #zoos {
+                margin-right: 130px;
+            }
+            
+            #contact {
+                margin-right: 130px;
+            }
+            
+            .navbar-link {
+                text-decoration: none;
+                color: #080029;
+            }
+            
+            #account-icon {
+                margin-left: 672px;
+            }
+            
+            .list {
+                cursor: pointer;
+            }
+            
+            .sidebar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                border: 2px solid #F0F0F0;
+                width: 90px;
+                height: 760px;
+                margin: -90px 41px;
+                position: fixed;
+                background: #FCFCFC;
+            }
+            
+            .sidebar-icons-list {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            #instgram-icon {
+                margin-top: 273px;
+            }
+            
+            #fb-icon {
+                margin-top: 50.23px;
+            }
+            
+            #twitter-icon {
+                margin-top: 53.14px;
+            }
+            
+            #arrow-btn {
+                margin-top: 101px;
+                margin-bottom: 100px;
+            }
+            
+            .logo-wrapper {
+                padding: 25px 19.28px 20px 18.85px;
+                border-bottom: #F0F0F0 solid;
+            }
+            
+            .icon_img {
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+            }
+            
+            .title_header {
+                display: inline;
+                font-family: 'Rubik', sans-serif;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 0.115em;
+                margin-bottom: 35px;
+                color: #626262;
+            }
+            
+            .header-title-block {
+                width: 699px;
+                height: 318px;
+                font-size: 84px;
+                line-height: 106px;
+                margin-top: 60px;
+            }
+            
+            .intro-title {
+                font-family: 'Merriweather', serif;
+                font-style: normal;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            
+            .header_btn {
+                border-radius: 5px;
+                width: 250px;
+                height: 61px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            
+            #choose-zoo {
+                text-align: center;
+                color: white;
+                margin-right: 60px;
+                background-color: #0F0049;
+            }
+            
+            #choose-zoo:hover {
+                background: #080029;
+            }
+            
+            #choose-zoo:focus,
+            #choose-zoo:active {
+                background: #150068;
+            }
+            
+            .btn:hover {
+                background: #080029;
+            }
+            
+            .btn:focus,
+            .btn:active {
+                background: #150068;
+            }
+            
+            #watch-online {
+                border: 2px solid #0F0049;
+                margin-left: 0;
+            }
+            
+            #watch-online:hover {
+                border-color: #080029;
+            }
+            
+            #watch-online:focus,
+            #watch-online:active {
+                border-color: #609FFF;
+            }
+            
+            .panda_img {
+                position: absolute;
+                width: 696px;
+                height: 673px;
+            }
+            /* Second section */
+            
+            .how-zoo-works {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: start;
+                height: 980px;
+                background: #FCFCFC;
+            }
+            
+            .text-block {
+                width: 696px;
+                height: 477px;
+            }
+            
+            .subtitle {
+                font-family: 'Merriweather', serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 145%;
+                color: #080029;
+                margin: 50px 0;
+            }
+            
+            .aboutAppZoo {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 154%;
+                color: #747474;
+                /* margin: 40px 0; */
+            }
+            
+            .tryNow_btn {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                font-family: 'Rubik', sans-serif;
+                padding: 20px 75px;
+                width: 218px;
+                height: 61px;
+                background: #0F0049;
+                border-radius: 5px;
+                color: white;
+                margin: 60px 478px 0 0;
+            }
+            
+            .lion-image-block {
+                width: 512px;
+                height: 760px;
+                margin: 110px 224px 110px 244px;
+            }
+            
+            .lion_img {
+                width: 512px;
+                height: 760px;
+            }
+            /* Third section */
+            
+            .famous-pets {
+                display: flex;
+                align-items: center;
+                height: 896px;
+                background: #D9E8FF;
+            }
+            
+            .text-pets-block {
+                width: 326px;
+                height: 364px;
+                margin: 393px 43px 347px 243px;
+            }
+            
+            .img-cards-block {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 1064px;
+                height: 696px;
+            }
+            
+            .img-card {
+                width: 328px;
+                height: 328px;
+                width: 30%;
+                margin: calc(10%/6);
+            }
+            /* Forth section */
+            
+            .pay-and-feed {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 1300px;
+                background-color: #FCFCFC;
+            }
+            
+            .title {
+                display: inline;
+                font-family: 'Rubik', sans-serif;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 0.115em;
+                color: #0B0B0B;
+            }
+            
+            .payAndFeed-title {
+                margin: 100px 1300px 30px 428px;
+            }
+            
+            .pay {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            
+            .byVisa-block {
+                margin: 0 668px 60px 428px;
+            }
+            
+            .payment-block {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            
+            .selectedAnimal {
+                margin: 0 852px 101px 244px;
+            }
+            
+            .first-vector-block {
+                padding: 0 151px 0 115px;
+            }
+            
+            #first-arrow {
+                width: 197px;
+                height: 97px;
+            }
+            
+            .second-vector-block {
+                padding: 146px 0 0 101px;
+                margin-bottom: -29px;
+            }
+            
+            #second-arrow {
+                width: 240.45px;
+                height: 194.46px;
+            }
+            
+            .cartoon-pic {
+                width: 290px;
+                height: 259px
+            }
+            
+            .pay-title {
+                font-family: 'Merriweather', serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 145%;
+                color: #080029;
+            }
+            
+            .pay-text {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 154%;
+                margin: 20px 0;
+                color: #747474;
+            }
+            
+            .text {
+                margin-left: 40px;
+            }
+            
+            .visa-text-block {
+                width: 456px;
+                height: 166px;
+            }
+            
+            .payment {
+                margin: 0 116px 47px 612px;
+            }
+            
+            .about-payment {
+                width: 456px;
+                height: 166px;
+            }
+            
+            .about-treats {
+                width: 456px;
+                height: 218px;
+            }
+            /* Fifth section */
+            
+            .feedback {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: 616px;
+                background-color: #080029;
+            }
+            
+            .fedback-text-block {
+                width: 512px;
+                height: 416px;
+                margin: 100px 40px 100px 243px;
+            }
+            
+            .feedback-title {
+                display: inline;
+                font-family: 'Rubik', sans-serif;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 0.115em;
+                color: #FCFCFC;
+            }
+            
+            .feedback-subtitle {
+                font-family: 'Merriweather', serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 145%;
+                margin: 62px 0 40px 0;
+                color: #FCFCFC;
+            }
+            
+            .feedback-text {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 154%;
+                margin: 0;
+                color: #FCFCFC;
+            }
+            
+            .feedback_btn {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                font-family: 'Rubik', sans-serif;
+                padding: 20px 75px;
+                width: 287px;
+                height: 64px;
+                background-color: #080029;
+                border: 2px solid #FCFCFC;
+                border-radius: 5px;
+                color: white;
+                margin: 60px 0 0 0;
+            }
+            
+            .review-block {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .first-review-block {
+                margin: 102px 40px 100px 0;
+            }
+            
+            .second-review-block {
+                margin: 139px 60px 195px 0;
+            }
+            
+            .more-reviews_btn {
+                font-family: 'Rubik', sans-serif;
+                font-weight: 500;
+                width: 218px;
+                height: 26px;
+                color: #FCFCFC;
+            }
+            
+            .more-review-link {
+                text-decoration: none;
+                cursor: pointer;
+            }
+            
+            #arrow-link {
+                width: 40px;
+                height: 14px;
+            }
+            
+            .review-box {
+                display: flex;
+                flex-wrap: wrap;
+                width: 512px;
+                height: 273px;
+                background: #FCFCFC;
+                border-radius: 15px;
+            }
+            
+            .left-box {
+                margin: 20px 0 30px 0;
+            }
+            
+            .left-slider {
+                margin: 0 20px 0 0;
+            }
+            
+            .slider:hover {
+                opacity: 0.75;
+            }
+            
+            .avatar-img {
+                width: 46px;
+                height: 46px;
+                margin: 40px 19px 0 40px;
+            }
+            
+            .name {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 135%;
+                height: 32px;
+                margin: 47px 226px 0 0;
+                color: #0B0B0B;
+            }
+            
+            .review-text {
+                width: 432px;
+                height: 84px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 154%;
+                margin: 37px 40px 73px 40px;
+                color: #181818;
+            }
+            /* Sixth section */
+            
+            .Zoogeography {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                height: 862px;
+                background-color: #FCFCFC;
+            }
+            
+            .card-block {
+                margin: 100px 0 100px 243px;
+            }
+            
+            .eagle-img-card {
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+            
+            .eagle-card-block {
+                align-items: center;
+                width: 344px;
+                height: 512px;
+                background: #FCFCFC;
+                box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+                border-radius: 15px;
+                margin-top: 62px;
+            }
+            
+            .card-title {
+                display: inline;
+                font-family: 'Rubik', sans-serif;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 0.115em;
+                color: #000000;
+            }
+            
+            .card-name {
+                font-family: 'Merriweather', serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 145%;
+                margin: 20px 123px 0 122px;
+                color: #080029;
+            }
+            
+            .card-text {
+                text-align: center;
+                width: 264px;
+                height: 84px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 154%;
+                margin: 20px 40px 52px 40px;
+                color: #747474;
+            }
+            
+            .whatch-now-link {
+                text-decoration: none;
+                padding: 0 5px 40px 112px;
+            }
+            
+            .whatch-now_btn {
+                color: #3888FF;
+            }
+            
+            #card-arrow-link {
+                color: #3888FF;
+            }
+            
+            .map-img-block {
+                Width: 1216px;
+                Height: 698px;
+                margin: 50px 91px 113px 24px;
+            }
+            
+            .marker {
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .marker:hover {
+                transform: scale(1.5);
+                transition: .4s;
+            }
+            
+            .eagle-marker {
+                width: 96px;
+                height: 124px;
+                margin: 164px 993px 410px 127px;
+            }
+            
+            .elligator-marker {
+                width: 69px;
+                height: 89px;
+                margin: 216px 881px 395px 273px;
+            }
+            
+            .gorilla-marker {
+                width: 69px;
+                height: 89px;
+                margin: 343px 563px 268px 591px;
+            }
+            
+            .panda-marker {
+                width: 69px;
+                height: 89px;
+                margin: 204px 239px 405px 908px;
+            }
+            
+            .world-map_img {
+                Width: 1216px;
+                Height: 698px;
+            }
+            /* Seventh section */
+            
+            .footer {
+                width: 100%;
+                height: 766px;
+                background-color: #0B0B0B;
+            }
+            
+            .footer-conteiner {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                align-items: center;
+                padding: 100px;
+            }
+            
+            .logo-block {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .navigation-list {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .logo-container {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .logo-link_footer {
+                width: 153px;
+                height: 117px;
+                margin-bottom: 192px;
+            }
+            
+            #logo-zoo {
+                width: 153px;
+                height: 117px;
+                margin-bottom: 192px;
+            }
+            
+            #yemDegital-logo {
+                width: 118px;
+                height: 62px;
+            }
+            
+            #shool-logo {
+                width: 128px;
+                height: 47px;
+            }
+            
+            #x {
+                width: 9px;
+                height: 19px;
+                margin: 22px 24px 21px 24px;
+            }
+            
+            .nav-title {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 0.115em;
+                color: #FCFCFC;
+                margin-bottom: 10px;
+            }
+            
+            .link_footer {
+                margin-top: 30px;
+            }
+            
+            .nav-links_footer {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 154%;
+                color: #BCBCBC;
+                text-decoration: none;
+            }
+            
+            .title_footer {
+                display: inline;
+                font-family: 'Rubik', sans-serif;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 0.115em;
+                color: #FCFCFC;
+            }
+            
+            .text_footer {
+                width: 332px;
+                height: 84px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 154%;
+                margin: 46px 0 40px 0;
+                color: #BCBCBC;
+            }
+            
+            .button_footer {
+                width: 339px;
+                height: 61px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                font-family: 'Rubik', sans-serif;
+                padding: 20px 75px;
+                background-color: #0B0B0B;
+                border: 2px solid #FCFCFC;
+                border-radius: 5px;
+                color: white;
+            }
+            
+            .button_footer:focus,
+            .button_footer:active {
+                background: #0e0435;
+            }
+            
+            .footer-links {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 85px;
+            }
+            
+            .social-link {
+                margin: calc(10%/6);
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-decoration: none;
+                color: #BCBCBC;
+            }
+            
+            .design {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                width: 1432px;
+                height: 23px;
+                margin: 0 244px 59px 244px;
+                border-top: 1px solid #747474;
+                padding: 50px;
+            }
+            
+            .Copyright {
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 145%;
+                text-align: right;
+                color: #BCBCBC;
+            }
