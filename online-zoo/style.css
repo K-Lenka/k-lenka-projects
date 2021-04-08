@@ -9,7 +9,6 @@
             }
             
             body {
-                position: relative;
                 width: 1920px;
                 height: 6290px;
                 margin: 0;
@@ -186,6 +185,8 @@
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 21px;
+                outline: none;
+                border: 0px;
             }
             
             #choose-zoo {
@@ -278,6 +279,8 @@
                 height: 61px;
                 background: #0F0049;
                 border-radius: 5px;
+                outline: none;
+                border: 0px;
                 color: white;
                 margin: 60px 478px 0 0;
             }
@@ -802,6 +805,8 @@
                 align-items: flex-start;
                 font-family: 'Rubik', sans-serif;
                 padding: 20px 75px;
+                outline: none;
+                border: 0px;
                 background-color: #0B0B0B;
                 border: 2px solid #FCFCFC;
                 border-radius: 5px;
