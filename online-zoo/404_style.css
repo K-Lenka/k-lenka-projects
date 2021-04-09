@@ -57,12 +57,11 @@ body {
 
 .main-logo {
     width: 90px;
-    height: 89px;
+    ;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #F0F0F0;
-    min-height: 89px;
 }
 
 .main-logo:hover {
@@ -91,7 +90,7 @@ body {
     font-weight: normal;
 }
 
-.bold:hover {
+.hov:hover {
     color: #200392;
 }
 

@@ -86,7 +86,7 @@
                 font-weight: normal;
             }
             
-            .bold:hover {
+            .hov:hover {
                 color: #200392;
             }
             
@@ -155,6 +155,10 @@
             .logo-wrapper {
                 padding: 25px 19.28px 20px 18.85px;
                 border-bottom: #F0F0F0 solid;
+            }
+            
+            .main-logo:hover {
+                opacity: 0.5;
             }
             
             .icon_img {
