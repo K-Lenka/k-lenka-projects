@@ -82,7 +82,7 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    font-size: 10px;
     font: inherit;
     vertical-align: baseline;
 }
@@ -204,7 +204,7 @@ audio:not([controls]) {
  */
 
 html {
-    font-size: 100%;
+    font-size: 10px;
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
