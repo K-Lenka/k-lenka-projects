@@ -1,5 +1,6 @@
             html {
                 box-sizing: border-box;
+                font-size: 10px;
             }
             
             *,
@@ -9,12 +10,13 @@
             }
             
             body {
-                width: 1920px;
-                height: 6290px;
+                max-width: 1920px;
+                /* height: 6290px; */
                 margin: 0;
                 padding: 0;
                 font-family: 'Merriweather', serif, 'Rubik', sans-serif;
-                background: #FCFCFC
+                background: #FCFCFC;
+                font-size: 1.8rem;
             }
             /* First section */
             
@@ -30,16 +32,9 @@
                 border: 0;
             }
             
-            .wrapper {
-                height: 870px;
-                background: #FCFCFC
-            }
-            
             .header {
                 display: flex;
-                flex-direction: row;
                 align-items: center;
-                justify-content: space-between;
                 width: 1800px;
                 height: 90px;
                 margin: 55px 79px 0 41px;
@@ -48,38 +43,42 @@
                 background: #FCFCFC
             }
             
-            .main {
-                display: flex;
-                flex-wrap: wrap;
-                height: 725px;
-                margin: auto;
-                background: #FCFCFC;
-            }
-            
             .watch-animal-online_section {
                 display: flex;
-                width: 699px;
-                height: 488px;
-                margin: 25px 244px 27px 242px;
+                align-items: center;
+                padding: 25px 0 27px 0;
+                /* margin: 25px 244px 27px 242px; */
+            }
+            
+            .wrapper-main {
+                display: flex;
+                align-items: center;
+                max-width: 1434px;
+                margin: auto;
             }
             
             .navbar-list {
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
-                margin: 33px 92px 29px 184px;
+                padding: 0 0 0 125px;
+                /* margin: 33px 92px 29px 184px; */
             }
             
             .navbar-link {
                 font-family: 'Rubik', sans-serif;
                 font-size: 18px;
+                text-decoration: none;
+                color: #080029;
+            }
+            
+            .navbar-item {
+                padding: 0 64px;
+                /* font-size: 1.8rem; */
             }
             
             #about {
-                margin-right: 130px;
-                font-weight: 500;
                 font-weight: bold;
-                font-size: 18px;
             }
             
             #about:hover {
@@ -90,25 +89,8 @@
                 color: #200392;
             }
             
-            #map {
-                margin-right: 130px;
-            }
-            
-            #zoos {
-                margin-right: 130px;
-            }
-            
-            #contact {
-                margin-right: 130px;
-            }
-            
-            .navbar-link {
-                text-decoration: none;
-                color: #080029;
-            }
-            
             #account-icon {
-                margin-left: 672px;
+                padding-left: 500px;
             }
             
             .list {
@@ -119,7 +101,6 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: space-between;
                 border: 2px solid #F0F0F0;
                 width: 90px;
                 height: 760px;
@@ -179,10 +160,9 @@
             
             .header-title-block {
                 width: 699px;
-                height: 318px;
-                font-size: 84px;
+                ;
                 line-height: 106px;
-                margin-top: 60px;
+                padding-top: 77px;
             }
             
             .intro-title {
@@ -190,6 +170,7 @@
                 font-style: normal;
                 font-weight: bold;
                 margin-bottom: 10px;
+                font-size: 84px;
             }
             
             .header_btn {
@@ -231,6 +212,7 @@
             }
             
             #watch-online {
+                background: #FCFCFC;
                 border: 2px solid #0F0049;
                 margin-left: 0;
             }
@@ -245,22 +227,25 @@
             }
             
             .panda_img {
-                position: absolute;
                 width: 696px;
                 height: 673px;
+                border-radius: 5px;
+                padding-left: 5px;
             }
             /* Second section */
             
             .how-zoo-works {
-                display: flex;
+                /* display: flex;
                 flex-wrap: wrap;
                 align-items: center;
                 justify-content: start;
-                height: 980px;
+                height: 980px; */
                 background: #FCFCFC;
+                padding: 110px 0 110px 0;
             }
             
             .text-block {
+                padding-top: 139px;
                 width: 696px;
                 height: 477px;
             }
@@ -302,9 +287,7 @@
             }
             
             .lion-image-block {
-                width: 512px;
-                height: 760px;
-                margin: 110px 224px 110px 244px;
+                margin-right: 216px;
             }
             
             .lion_img {
@@ -316,39 +299,40 @@
             .famous-pets {
                 display: flex;
                 align-items: center;
-                height: 896px;
+                /* height: 896px; */
                 background: #D9E8FF;
+                padding: 83px 0 111px 0;
             }
             
             .text-pets-block {
-                width: 326px;
-                height: 364px;
-                margin: 393px 43px 347px 243px;
+                width: 325px;
+                padding-top: 205px;
             }
             
             .img-cards-block {
                 display: flex;
-                flex-direction: row;
                 flex-wrap: wrap;
                 align-items: center;
                 width: 1064px;
-                height: 696px;
+                padding-left: 45px;
             }
             
             .img-card {
                 width: 328px;
-                height: 328px;
                 width: 30%;
                 margin: calc(10%/6);
             }
             /* Forth section */
             
-            .pay-and-feed {
+            .pay-and-feed__wrapper {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                height: 1300px;
+            }
+            
+            .pay-and-feed {
                 background-color: #FCFCFC;
+                padding-top: 100px;
             }
             
             .title {
@@ -361,7 +345,7 @@
             }
             
             .payAndFeed-title {
-                margin: 100px 1300px 30px 428px;
+                padding: 0 1300px 30px 428px;
             }
             
             .pay {
@@ -371,7 +355,7 @@
             }
             
             .byVisa-block {
-                margin: 0 668px 60px 428px;
+                padding: 0 668px 60px 428px;
             }
             
             .payment-block {
@@ -381,7 +365,7 @@
             }
             
             .selectedAnimal {
-                margin: 0 852px 101px 244px;
+                padding: 0 852px 106px 244px;
             }
             
             .first-vector-block {
@@ -428,7 +412,7 @@
             }
             
             .text {
-                margin-left: 40px;
+                padding-left: 40px;
             }
             
             .visa-text-block {
@@ -437,7 +421,7 @@
             }
             
             .payment {
-                margin: 0 116px 47px 612px;
+                padding: 0 116px 47px 612px;
             }
             
             .about-payment {
@@ -451,18 +435,23 @@
             }
             /* Fifth section */
             
-            .feedback {
+            .feedback__wrapper {
                 display: flex;
                 flex-direction: row;
-                flex-wrap: wrap;
-                height: 616px;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1617px;
+                margin: auto;
+            }
+            
+            .feedback {
+                padding: 0 40px 0 243px;
                 background-color: #080029;
             }
             
             .fedback-text-block {
                 width: 512px;
                 height: 416px;
-                margin: 100px 40px 100px 243px;
             }
             
             .feedback-title {
@@ -509,17 +498,12 @@
                 margin: 60px 0 0 0;
             }
             
-            .review-block {
-                display: flex;
-                flex-wrap: wrap;
-            }
-            
             .first-review-block {
-                margin: 102px 40px 100px 0;
+                padding: 102px 0 100px 0;
             }
             
             .second-review-block {
-                margin: 139px 60px 195px 0;
+                padding: 139px 0 195px 0;
             }
             
             .more-reviews_btn {
@@ -533,6 +517,10 @@
             .more-review-link {
                 text-decoration: none;
                 cursor: pointer;
+            }
+            
+            .more-review-link :hover {
+                text-decoration: underline;
             }
             
             #arrow-link {
@@ -591,16 +579,9 @@
             }
             /* Sixth section */
             
-            .Zoogeography {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                height: 862px;
+            .zoogeography {
+                padding: 52px 40px 112px 243px;
                 background-color: #FCFCFC;
-            }
-            
-            .card-block {
-                margin: 100px 0 100px 243px;
             }
             
             .eagle-img-card {
@@ -659,14 +640,16 @@
                 color: #3888FF;
             }
             
+            .whatch-now-link:hover {
+                text-decoration: underline #3888FF;
+            }
+            
             #card-arrow-link {
                 color: #3888FF;
             }
             
             .map-img-block {
                 Width: 1216px;
-                Height: 698px;
-                margin: 50px 91px 113px 24px;
             }
             
             .marker {
@@ -682,25 +665,25 @@
             .eagle-marker {
                 width: 96px;
                 height: 124px;
-                margin: 164px 993px 410px 127px;
+                margin: 190px 0 0 127px;
             }
             
             .elligator-marker {
                 width: 69px;
                 height: 89px;
-                margin: 216px 881px 395px 273px;
+                margin: 239px 0 0 273px;
             }
             
             .gorilla-marker {
                 width: 69px;
                 height: 89px;
-                margin: 343px 563px 268px 591px;
+                margin: 367px 0 0 591px;
             }
             
             .panda-marker {
                 width: 69px;
                 height: 89px;
-                margin: 204px 239px 405px 908px;
+                margin: 225px 0 0 925px;
             }
             
             .world-map_img {
@@ -710,18 +693,18 @@
             /* Seventh section */
             
             .footer {
-                width: 100%;
-                height: 766px;
+                padding: 100px 0 70px 0;
+                /* margin: 0 244px 59px 244px; */
                 background-color: #0B0B0B;
             }
             
-            .footer-conteiner {
+            .footer__wrapper {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
                 flex-wrap: wrap;
                 align-items: center;
-                padding: 100px;
+                margin: auto;
             }
             
             .logo-block {
@@ -860,9 +843,9 @@
                 justify-content: space-between;
                 width: 1432px;
                 height: 23px;
-                margin: 0 244px 59px 244px;
                 border-top: 1px solid #747474;
-                padding: 50px;
+                padding-top: 50px;
+                margin-top: 150px;
             }
             
             .Copyright {
