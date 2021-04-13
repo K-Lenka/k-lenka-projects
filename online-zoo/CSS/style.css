@@ -1,6 +1,5 @@
             html {
                 box-sizing: border-box;
-                font-size: 10px;
             }
             
             *,
@@ -16,7 +15,7 @@
                 padding: 0;
                 font-family: 'Merriweather', serif, 'Rubik', sans-serif;
                 background: #FCFCFC;
-                font-size: 1.8rem;
+                font-size: 10px;
             }
             /* First section */
             
@@ -245,7 +244,6 @@
             }
             
             .text-block {
-                padding-top: 139px;
                 width: 696px;
                 height: 477px;
             }
