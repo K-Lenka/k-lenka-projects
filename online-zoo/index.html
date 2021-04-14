@@ -16,35 +16,35 @@
     <h1 class="invisible">Online Zoo</h1>
 
     <header class="header">
-        <nav class="navbar">
-            <ul class="list navbar-list">
-                <li class="navbar-item">
-                    <a class="hov navbar-link" id="about" href="./index.html">About</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="hov navbar-link" id="map" href="./map.html">Map</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="hov navbar-link" id="zoos" href="./Zoos.html">Zoos</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="hov navbar-link" id="contact" href="./404.html">Contact us</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="hov navbar-link" id="Design" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo">Design</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="hov slider navbar-link" id="account-icon" href="#!"><img src="./assets/SVG/Account.svg" alt="account-icon"></a>
-                </li>
-            </ul>
-        </nav>
+        <div class="wrapper-main">
+            <nav class="navbar">
+                <ul class="list navbar-list">
+                    <li class="navbar-item">
+                        <a class="hov navbar-link" id="about" href="./index.html">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="hov navbar-link" id="map" href="./map.html">Map</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="hov navbar-link" id="zoos" href="./Zoos.html">Zoos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="hov navbar-link" id="contact" href="./404.html">Contact us</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="hov navbar-link" id="Design" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo">Design</a>
+                    </li>
+                </ul>
+                <span class="account-icon"><a class="hov slider navbar-link"  href="#!"><img src="./assets/SVG/Account.svg" alt="account-icon"></a></span>
+            </nav>
+        </div>
     </header>
 
 
     <aside class="sidebar">
         <div class="logo-wrapper">
             <a href="./index.html" class="main-logo">
-                <img src="./assets/SVG/logo.svg" alt="logo-image">
+                <img src="./assets/SVG/logo.svg" alt="logo-image" class="logo-zoo">
             </a>
         </div>
         <nav class="navbar_sidebar">
@@ -77,7 +77,7 @@
         <div class="wrapper-main">
             <div class="header-title-block">
                 <h4 class="title_header">Wild park</h4>
-                <p class="intro-title" id="watchOnline">Watch your favorite animal online</p>
+                <p class="intro-title">Watch your favorite animal online</p>
                 <a href="./map.html"><button class="button btn header_btn" id="choose-zoo">Choose zoo</button></a>
                 <a href="./Zoos.html"><button class="button header_btn" id="watch-online">Watch online</button></a>
             </div>
@@ -242,9 +242,7 @@
     </section>
 
     <footer class="footer">
-
         <div class="footer__wrapper">
-
             <div class="logo-block">
                 <a href="./index.html" class="logo-link_footer">
                     <img id="logo-zoo" src="./assets/SVG/logo_footer.svg" alt="zoo logo">
@@ -254,7 +252,6 @@
                     <img id="x" src="./assets/SVG/x.svg" alt="">
                     <img id="shool-logo" src="./assets/SVG/rs_school_logo.svg" alt="RS Shool logo" title="Rolling Scopes Schoo">
                 </div>
-
 
             </div>
             <div class="navigation-list">
@@ -287,10 +284,9 @@
                 </p>
             </div>
         </div>
-
-
-
     </footer>
+
+
 
 
     <script src="script.js"></script>

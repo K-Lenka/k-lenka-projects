@@ -57,7 +57,6 @@ body {
 
 .main-logo {
     width: 90px;
-    ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,10 +131,10 @@ body {
 
 .number404 {
     font-family: 'Merriweather', serif;
-    font-size: 9.4rem;
-    line-height: 17rem;
+    font-size: 14.4rem;
+    line-height: 18.1rem;
     color: #D9E8FF;
-    margin-bottom: -108px;
+    margin-bottom: -58px;
     font-weight: 700;
 }
 
@@ -157,6 +156,14 @@ body {
     text-align: center;
     color: #080029;
     margin-top: 30px;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
 }
 
 .back-to-main {
@@ -217,18 +224,18 @@ body {
 /* Footer */
 
 .footer {
-    width: 100%;
-    height: 766px;
+    padding: 100px 0 70px 0;
     background-color: #0B0B0B;
 }
 
-.footer-conteiner {
+.footer__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    padding: 100px;
+    margin: auto;
+    max-width: 1920px;
 }
 
 .logo-block {
@@ -278,7 +285,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 2.2rem;
     line-height: 26px;
     letter-spacing: 0.115em;
     color: #FCFCFC;
@@ -293,7 +300,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 154%;
     color: #BCBCBC;
     text-decoration: none;
@@ -302,7 +309,7 @@ body {
 .title_footer {
     display: inline;
     font-family: 'Rubik', sans-serif;
-    font-size: 22px;
+    font-size: 2.2rem;
     line-height: 26px;
     letter-spacing: 0.115em;
     color: #FCFCFC;
@@ -314,7 +321,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 154%;
     margin: 46px 0 40px 0;
     color: #BCBCBC;
@@ -354,7 +361,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2.0rem;
     line-height: 24px;
     text-decoration: none;
     color: #BCBCBC;
@@ -367,16 +374,16 @@ body {
     justify-content: space-between;
     width: 1432px;
     height: 23px;
-    margin: 0 244px 59px 244px;
     border-top: 1px solid #747474;
-    padding: 50px;
+    padding-top: 50px;
+    margin-top: 150px;
 }
 
 .Copyright {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 145%;
     text-align: right;
     color: #BCBCBC;

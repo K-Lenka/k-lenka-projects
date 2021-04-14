@@ -9,7 +9,6 @@
             }
             
             body {
-                max-width: 1920px;
                 margin: 0;
                 padding: 0;
                 font-family: 'Merriweather', serif, 'Rubik', sans-serif;
@@ -49,15 +48,20 @@
             .wrapper-main {
                 display: flex;
                 align-items: center;
-                max-width: 1434px;
+                justify-content: center;
+                max-width: 1920px;
                 margin: auto;
+            }
+            
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
             }
             
             .navbar-list {
                 display: flex;
-                flex-wrap: wrap;
                 align-items: center;
-                padding: 0 0 0 125px;
             }
             
             .navbar-link {
@@ -83,8 +87,8 @@
                 color: #200392;
             }
             
-            #account-icon {
-                padding-left: 500px;
+            .account-icon {
+                padding-left: 610px;
             }
             
             .list {
@@ -103,6 +107,10 @@
                 background: #FCFCFC;
             }
             
+            .navbar_sidebar {
+                padding-top: 250px;
+            }
+            
             .sidebar-icons-list {
                 display: flex;
                 flex-direction: column;
@@ -111,19 +119,14 @@
             }
             
             #instgram-icon {
-                margin-top: 273px;
+                margin-bottom: 51px;
             }
             
             #fb-icon {
-                margin-top: 50.23px;
+                margin-bottom: 54px;
             }
             
             #twitter-icon {
-                margin-top: 53.14px;
-            }
-            
-            #arrow-btn {
-                margin-top: 101px;
                 margin-bottom: 100px;
             }
             
@@ -134,6 +137,11 @@
             
             .main-logo:hover {
                 opacity: 0.5;
+            }
+            
+            .logo-zoo {
+                width: 51.87px;
+                height: 40px;
             }
             
             .icon_img {
@@ -289,7 +297,6 @@
             .famous-pets {
                 display: flex;
                 align-items: center;
-                /* height: 896px; */
                 background: #D9E8FF;
                 padding: 83px 0 111px 0;
             }
@@ -318,6 +325,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                max-width: 1920px;
+                margin: auto;
             }
             
             .pay-and-feed {
@@ -335,13 +344,15 @@
             }
             
             .payAndFeed-title {
+                display: flex;
+                align-items: flex-start;
                 padding: 0 1300px 30px 428px;
             }
             
             .pay {
                 display: flex;
-                flex-wrap: wrap;
-                align-items: center;
+                align-content: flex-start;
+                column-gap: normal;
             }
             
             .byVisa-block {
@@ -430,7 +441,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                max-width: 1617px;
+                max-width: 1920px;
                 margin: auto;
             }
             
@@ -643,6 +654,7 @@
             }
             
             .map-img-block {
+                position: initial;
                 Width: 1216px;
             }
             
@@ -684,11 +696,10 @@
                 Width: 1216px;
                 Height: 698px;
             }
-            /* Seventh section */
+            /* Seventh section FOOTER*/
             
             .footer {
                 padding: 100px 0 70px 0;
-                /* margin: 0 244px 59px 244px; */
                 background-color: #0B0B0B;
             }
             
@@ -699,6 +710,7 @@
                 flex-wrap: wrap;
                 align-items: center;
                 margin: auto;
+                max-width: 1920px;
             }
             
             .logo-block {
@@ -856,4 +868,65 @@
 640px
 320px*/
             
-            @media (min-width:1920px) and (nim-width: 1200px) {}
+            @media (max-width: 1200px) {
+                .wrapper-main {
+                    width: 1200px;
+                }
+                .header {
+                    display: flex;
+                    align-items: center;
+                    width: 1120px;
+                    height: 70px;
+                    margin-top: 25px;
+                }
+                .navbar {
+                    padding-left: 74px;
+                }
+                .navbar-item {
+                    padding: 0 49px;
+                }
+                .account-icon {
+                    padding-left: 150px;
+                }
+                .sidebar {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 70px;
+                    height: 586px;
+                    margin: -70px 40px;
+                    position: fixed;
+                }
+                .logo-wrapper {
+                    padding: 15px 13.28px 19px 10.85px;
+                    border-bottom: #F0F0F0 solid;
+                }
+                .logo-zoo {
+                    width: 41.5px;
+                    height: 32px;
+                }
+                .navbar_sidebar {
+                    padding-top: 188px;
+                }
+                #instgram-icon {
+                    margin-bottom: 43px;
+                }
+                #fb-icon {
+                    margin-bottom: 43px;
+                }
+                #twitter-icon {
+                    margin-bottom: 70px;
+                }
+                .intro-title {
+                    font-size: 5.6rem;
+                    line-height: 70px;
+                }
+                .panda_img {
+                    width: 400px;
+                    height: 456px;
+                }
+                .header_btn {
+                    width: 209px;
+                    height: 51px;
+                }
+            }
