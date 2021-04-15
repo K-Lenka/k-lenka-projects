@@ -135,7 +135,7 @@
             
             .logo-wrapper {
                 padding: 25px 19.28px 20px 18.85px;
-                border-bottom: #F0F0F0 solid;
+                border-bottom: #F0F0F0 solid 1px;
             }
             
             .main-logo:hover {
