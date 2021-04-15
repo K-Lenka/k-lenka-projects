@@ -1,0 +1,265 @@
+body {
+    color: #747474;
+    line-height: 2.772rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif, 'Rubik', sans-serif;
+    background: #FCFCFC;
+}
+
+.invisible {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+
+/* HEADER*/
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 1800px;
+    height: 90px;
+    margin: 25px 79px 0 41px;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    background: #FCFCFC;
+}
+
+.wrapper-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #080029;
+}
+
+.navbar-item {
+    padding: 0 64px;
+}
+
+#zoos {
+    font-weight: bold;
+}
+
+.hov:hover {
+    color: #200392;
+}
+
+.account-icon {
+    padding-left: 610px;
+}
+
+.list {
+    cursor: pointer;
+}
+
+
+/* HEADER END*/
+
+
+/* SIDEBAR*/
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #F0F0F0;
+    width: 90px;
+    height: 760px;
+    margin: -90px 0 0 41px;
+    background: #FCFCFC;
+}
+
+.sidebar-icons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#panda-icon {
+    margin-bottom: 40px;
+}
+
+#alligator-icon {
+    margin-bottom: 40px;
+}
+
+#eagle-icon {
+    margin-bottom: 40px;
+}
+
+#gorilla-icon {
+    margin-bottom: 40px;
+}
+
+#slider-up {
+    margin-bottom: 30px;
+}
+
+#slider-down {
+    margin-top: 30px;
+}
+
+.logo-wrapper {
+    padding: 25px 19.28px 20px 18.85px;
+    border-bottom: #F0F0F0 solid 1px;
+}
+
+.main-logo:hover {
+    opacity: 0.5;
+}
+
+.logo-zoo {
+    width: 51.87px;
+    height: 40px;
+}
+
+.slider:hover {
+    opacity: 0.75;
+    border-color: #609FFF;
+}
+
+
+/* SIDEBAR END*/
+
+
+/* VIDEO SECTION*/
+
+.container-main {
+    display: flex;
+    align-items: center;
+}
+
+.live-video__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 71px 61px 16px 94px;
+}
+
+.feed-animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.zoo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 412px;
+    border-bottom: 1px solid #E3E3E3;
+    padding-bottom: 44px;
+}
+
+.zoo-name__name {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 28px;
+    color: #0B0B0B;
+}
+
+.watching-now_conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.watching-now {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 154%;
+    color: #747474;
+    padding-left: 6.67px;
+}
+
+.feed__text {
+    margin-top: 40px;
+}
+
+.feed__text>h2 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 145%;
+    color: #080029;
+    width: 408px;
+}
+
+.feed__text>h5 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 154%;
+    color: #747474;
+    width: 336px;
+    margin: 30px 0;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn:hover {
+    background: #080029;
+}
+
+.btn:focus,
+.btn:active {
+    background: #150068;
+}
+
+.feed_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px 75px;
+    width: 287px;
+    height: 64px;
+    background-color: #0F0049;
+    border: 2px solid #FCFCFC;
+    border-radius: 5px;
+    color: white;
+    margin: 40px 0 0 0;
+}
+
+
+/* VIDEO SECTION END*/

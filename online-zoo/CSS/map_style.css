@@ -34,12 +34,6 @@ body {
     background: #FCFCFC
 }
 
-.watch-animal-online_section {
-    display: flex;
-    align-items: center;
-    padding: 25px 0 27px 0;
-}
-
 .wrapper-main {
     display: flex;
     align-items: center;
