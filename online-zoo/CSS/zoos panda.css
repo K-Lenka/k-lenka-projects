@@ -284,7 +284,42 @@ body {
 .other-cams__title-block {
     display: flex;
     align-items: center;
-    margin-bottom: 67px;
+}
+
+.accordion1 {
+    background-color: #FCFCFC;
+    color: #080029;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    padding: 0 0;
+}
+
+.active1,
+.accordion1:hover {
+    background-color: #FCFCFC;
+}
+
+.accordion1:after {
+    content: '\2BC5';
+    color: #080029;
+    float: right;
+    margin-left: 12px;
+    font-size: 27px;
+}
+
+.active1:after {
+    content: '\2BC6';
+}
+
+.panel1 {
+    background-color: #FCFCFC;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .other-cams__title {
@@ -295,6 +330,7 @@ body {
     line-height: 145%;
     color: #080029;
     padding-right: 12px;
+    padding-bottom: 30px;
 }
 
 .other-cams__layout-4-columns {
@@ -308,6 +344,64 @@ body {
     display: flex;
     align-items: center;
     margin-right: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cam_img {
+    border-radius: 5px;
+}
+
+.translation__cam-content {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    color: #FCFCFC;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 277px;
+    height: 127px;
+}
+
+.translation__cam-content:hover {
+    opacity: 1;
+    transition: all 0.3s ease-out;
+}
+
+.translation__cam-title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 145%;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.separator {
+    opacity: 0.85;
+    border-bottom: 1px solid #FCFCFC;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.whatch_btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 21px;
+    color: #FCFCFC;
+    padding-right: 20px;
+}
+
+.link-button {
+    color: #FCFCFC;
+    text-decoration: none;
+    display: flex;
 }
 
 .left-slider {
@@ -330,6 +424,17 @@ body {
 
 .interesting-facts__block {
     border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 30px;
+}
+
+.interesting-facts__title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 145%;
+    color: #080029;
+    padding-right: 12px;
     padding-bottom: 30px;
 }
 
@@ -357,14 +462,9 @@ body {
     line-height: 145%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     color: #609FFF;
     margin-bottom: 30px;
-}
-
-.minus__title {
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
 }
 
 .details {
@@ -383,11 +483,11 @@ body {
 }
 
 .species {
-    margin-bottom: 62px;
+    margin-bottom: 52px;
 }
 
 .region {
-    margin-bottom: 118px;
+    margin-bottom: 52px;
 }
 
 .accordion {
@@ -399,6 +499,7 @@ body {
     border: none;
     outline: none;
     transition: 0.4s;
+    padding: 0 0;
 }
 
 .active,
@@ -449,7 +550,7 @@ body {
 
 .pay-and-feed {
     background-color: #FCFCFC;
-    padding-top: 100px;
+    padding-top: 71px;
 }
 
 .title {
