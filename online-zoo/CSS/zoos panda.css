@@ -106,6 +106,7 @@ body {
 
 #panda-icon {
     margin-bottom: 40px;
+    border: 2px solid #609FFF;
 }
 
 #alligator-icon {
@@ -266,11 +267,10 @@ body {
 
 .feed_btn {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     font-family: 'Rubik', sans-serif;
     padding: 20px 75px;
-    width: 287px;
     height: 64px;
     background-color: #0F0049;
     border: 2px solid #FCFCFC;
