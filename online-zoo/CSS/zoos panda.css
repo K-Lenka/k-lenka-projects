@@ -92,7 +92,7 @@ body {
     border: 2px solid #F0F0F0;
     width: 90px;
     height: 760px;
-    margin: -149px 91px 0 41px;
+    margin: -174px 91px 0 41px;
     background: #FCFCFC;
     position: fixed;
 }
@@ -142,9 +142,23 @@ body {
     height: 40px;
 }
 
+.sidebar__ico {
+    background-color: transparent;
+    border: 1px solid #D9E8FF;
+    border-radius: 50%;
+}
+
+.sidebar__ico:hover {
+    border-color: #609FFF;
+}
+
+.sidebar__ico:active,
+.sidebar__ico:focus {
+    border: 2px solid #609FFF;
+}
+
 .slider:hover {
     opacity: 0.75;
-    border-color: #609FFF;
 }
 
 
