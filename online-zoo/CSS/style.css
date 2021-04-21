@@ -263,7 +263,6 @@
                 font-size: 1.8rem;
                 line-height: 154%;
                 color: #747474;
-                /* margin: 40px 0; */
             }
             
             .tryNow_btn {
@@ -296,26 +295,29 @@
                 display: flex;
                 align-items: center;
                 background: #D9E8FF;
-                padding: 83px 0 111px 0;
+                padding: 83px 0 66px 0;
             }
             
             .text-pets-block {
                 width: 325px;
-                padding-top: 205px;
+                padding-top: 83px;
             }
             
             .img-cards-block {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
+                overflow: hidden;
+                height: 696px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                column-gap: 28px;
+                row-gap: 15px;
                 width: 1064px;
                 padding-left: 45px;
             }
             
             .img-card {
                 width: 328px;
-                width: 30%;
-                margin: calc(10%/6);
+                height: 328px;
+                border-radius: 5px;
             }
             /* Forth section */
             
@@ -926,5 +928,59 @@
                 .header_btn {
                     width: 209px;
                     height: 51px;
+                }
+                .lion_img {
+                    width: 401px;
+                    height: 585px;
+                }
+                .subtitle {
+                    font-size: 2.8rem;
+                }
+                .aboutAppZoo {
+                    font-size: 1.6rem;
+                }
+                .lion-image-block {
+                    margin-right: 31px;
+                }
+                .img-cards-block {
+                    grid-template-rows: repeat(2, 1fr);
+                    height: 535px;
+                    width: 584px;
+                    column-gap: 25px;
+                    row-gap: 25px;
+                }
+                .img-card {
+                    width: 258px;
+                    height: 258px;
+                }
+                .slider {
+                    width: 56px;
+                    height: 56px;
+                }
+            }
+            
+            @media (max-width: 640px) {
+                .revert {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                }
+                .img-cards-block {
+                    grid-template-rows: repeat(2, 1fr);
+                    height: 535px;
+                    width: 584px;
+                    column-gap: 25px;
+                    row-gap: 25px;
+                    padding: 0 25;
+                }
+                .img-card {
+                    width: 180px;
+                    height: 180px;
+                }
+                .slider {
+                    width: 56px;
+                    height: 56px;
                 }
             }
