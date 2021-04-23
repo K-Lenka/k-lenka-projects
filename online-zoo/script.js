@@ -26,3 +26,9 @@ for (j = 0; j < acc1.length; j++) {
         }
     });
 }
+
+//hamburger menu
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
