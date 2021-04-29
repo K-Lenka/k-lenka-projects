@@ -4,6 +4,11 @@ var i;
 var j;
 const burger = document.querySelector('.nav__burger')
 const burgerMenu = document.querySelector('.nav__burger__menu');
+const gap = 16;
+const carousel = document.querySelector(".carousel");
+const content = document.querySelectorAll(".content");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
 
 
 for (i = 0; i < acc.length; i++) {
@@ -41,3 +46,23 @@ burger.addEventListener('click', (myFunction) => {
     }
 
 })
+
+//carousel
+
+next.addEventListener("click", e => {
+    carousel.scrollBy(width + gap, 0);
+    if (carousel.scrollWidth !== 0) {
+        prev.style.display = "inline-block";
+    }
+
+});
+prev.addEventListener("click", e => {
+    carousel.scrollBy(-(width + gap), 0);
+
+    if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+        next.style.display = "inline-block";
+    }
+});
+
+let width = carousel.offsetWidth;
+window.addEventListener("resize", e => (width = carousel.offsetWidth));

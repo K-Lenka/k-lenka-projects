@@ -398,11 +398,34 @@
       border-radius: 5px;
   }
   
+  .prev,
+  .next {
+      display: inline-block;
+  }
+  
+  .carousel {
+      overflow: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+  }
+  
+  .carousel::-webkit-scrollbar {
+      height: 0;
+  }
+  
   .carousel__card-block {
       display: flex;
       justify-content: center;
       align-items: flex-end;
       position: relative;
+  }
+  
+  .content {
+      /* display: grid; */
+      grid-gap: 16px;
+      grid-auto-flow: column;
+      /* margin: auto; */
+      box-sizing: border-box;
   }
   
   .carousel__slide-content {
