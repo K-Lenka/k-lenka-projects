@@ -9,6 +9,7 @@ const carousel = document.querySelector(".carousel");
 const content = document.querySelectorAll(".content");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
+const modalWindow = document.querySelector('#show-modal');
 
 
 for (i = 0; i < acc.length; i++) {
@@ -36,15 +37,14 @@ for (j = 0; j < acc1.length; j++) {
 }
 
 //hamburger menu + icon change
+function toggleMenu() {
+    burgerMenu.classList.toggle("open");
+}
+
+burger.onclick = toggleMenu;
 
 burger.addEventListener('click', (myFunction) => {
     burger.classList.toggle("change");
-    if (burgerMenu.style.display === "block") {
-        burgerMenu.style.display = "none";
-    } else {
-        burgerMenu.style.display = "block";
-    }
-
 })
 
 //carousel
@@ -66,3 +66,12 @@ prev.addEventListener("click", e => {
 
 let width = carousel.offsetWidth;
 window.addEventListener("resize", e => (width = carousel.offsetWidth));
+
+//modal window
+
+// var modal = $modal();
+
+// modalWindow.addEventListener('click', function(e) {
+
+//     modal.show();
+// });

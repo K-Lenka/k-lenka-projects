@@ -69,12 +69,6 @@
   
   .nav__burger__menu {
       display: none;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding-top: 90px;
-      border: 2px solid #F0F0F0;
   }
   
   .menu__list {
@@ -108,13 +102,21 @@
   .header {
       display: flex;
       align-items: center;
-      width: 1800px;
+      max-width: 1800px;
       height: 90px;
       margin: 55px 79px 0 41px;
       border: 2px solid #F0F0F0;
       box-sizing: border-box;
       background: #FCFCFC;
       overflow: hidden;
+  }
+  
+  .header__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 1578px;
+      margin: auto;
   }
   
   .watch-animal-online_section {
@@ -127,7 +129,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      max-width: 1920px;
+      max-width: 1434px;
       margin: auto;
   }
   
@@ -560,7 +562,6 @@
   }
   
   .title {
-      display: inline;
       font-family: 'Rubik', sans-serif;
       font-size: 2.2rem;
       line-height: 26px;
@@ -571,7 +572,8 @@
   .payAndFeed-title {
       display: flex;
       align-items: flex-start;
-      padding: 0 1300px 30px 428px;
+      padding: 0 0 30px 255px;
+      white-space: nowrap;
   }
   
   .pay {
@@ -586,7 +588,6 @@
   
   .payment-block {
       display: flex;
-      flex-wrap: wrap;
       align-items: center;
   }
   
@@ -1098,7 +1099,7 @@
           display: none;
       }
       .wrapper-main {
-          width: 1200px;
+          max-width: 986px;
       }
       .header {
           display: flex;
@@ -1107,8 +1108,14 @@
           height: 70px;
           margin-top: 25px;
       }
+      .header__wrapper {
+          max-width: 1044px;
+      }
+      .header-title-block {
+          padding-left: 67px;
+      }
       .navbar {
-          padding-left: 74px;
+          padding-left: 29px;
       }
       .navbar-item {
           padding: 0 49px;
@@ -1122,7 +1129,7 @@
           align-items: center;
           width: 70px;
           height: 586px;
-          margin: -70px 40px;
+          margin: -70px 0 0 40px;
           position: fixed;
       }
       .logo-wrapper {
@@ -1152,6 +1159,7 @@
       .panda_img {
           width: 400px;
           height: 456px;
+          padding-left: 0;
       }
       .header_btn {
           width: 209px;
@@ -1164,11 +1172,31 @@
       .subtitle {
           font-size: 2.8rem;
       }
+      .text-block {
+          width: 544px;
+          height: 393px;
+      }
+      #choose-zoo {
+          margin-right: 40px;
+      }
       .aboutAppZoo {
           font-size: 1.6rem;
       }
       .lion-image-block {
           margin-right: 31px;
+          padding-left: 118px;
+      }
+      .round-button_border-light-big {
+          width: 184px;
+          height: 184px;
+      }
+      .animal__location {
+          font-size: 1.6rem;
+          line-height: 154%;
+      }
+      .text-pets-block {
+          width: 251px;
+          padding-top: 19px;
       }
       .img-cards-block {
           grid-template-rows: repeat(2, 1fr);
@@ -1185,6 +1213,128 @@
           width: 56px;
           height: 56px;
       }
+      .pay-and-feed__wrapper {
+          display: block;
+          max-width: 897px;
+          padding-left: 160px;
+      }
+      .payAndFeed-title {
+          white-space: nowrap;
+          padding: 0 0 0 174px;
+      }
+      .title {
+          font-size: 2.0rem;
+      }
+      .byVisa-block {
+          padding: 0;
+      }
+      .pay-title {
+          font-size: 2.8rem;
+      }
+      .pay-text {
+          font-size: 1.6rem
+      }
+      .first-vector-block {
+          display: none;
+      }
+      .second-vector-block {
+          display: none;
+      }
+      .payment {
+          padding: 0;
+          margin-bottom: 47px;
+      }
+      .selectedAnimal {
+          padding: 0;
+          margin-bottom: 128px;
+      }
+      .pay {
+          margin-top: 80px;
+      }
+      .second-review-block {
+          display: none;
+      }
+      .feedback {
+          padding: 0;
+      }
+      .feedback__wrapper {
+          max-width: 900px;
+      }
+      .feedback-subtitle {
+          font-size: 2.8rem;
+      }
+      .feedback-title {
+          font-size: 2.0rem;
+      }
+      .more-reviews_btn {
+          font-size: 1.6rem;
+      }
+      .review-text {
+          font-size: 1.6rem;
+          width: 394px;
+          margin: 25px;
+      }
+      .name {
+          font-size: 1.6rem;
+          font-weight: bold;
+      }
+      .review-box {
+          width: 454px;
+          height: 235px;
+      }
+      .fedback-text-block {
+          padding-left: 10px;
+      }
+      .first-review-block {
+          max-width: 454px;
+          padding-left: 39px;
+      }
+      .eagle-card-block {
+          width: 292px;
+          height: 448px;
+      }
+      .eagle-img-card {
+          width: 292px;
+      }
+      .card-block {
+          margin-right: 10px;
+      }
+      .card-name {
+          font-size: 2.8rem;
+      }
+      .card-text {
+          font-size: 1.6rem;
+          margin: 20px 14px 44px 14px
+      }
+      .whatch-now_btn {
+          font-size: 1.8rem;
+      }
+      .whatch-now-link {
+          padding: 0 5px 40px 93px;
+      }
+      .zoogeography {
+          padding: 100px 0 99px 20px;
+      }
+      .world-map_img {
+          width: 675px;
+          height: 389px;
+      }
+      .marker {
+          width: 51px;
+          height: 66px;
+      }
+      .eagle-marker {
+          margin: 107px 0 0 72px;
+      }
+      .elligator-marker {
+          margin: 121px 0 0 146px;
+      }
+      .gorilla-marker {
+          margin: 174px 0 0 308px;
+      }
+      .panda-marker {
+          margin: 109px 0 0 492px;
+      }
   }
   
   @media (max-width: 640px) {
@@ -1200,6 +1350,9 @@
           height: 88px;
           margin: 0 auto;
       }
+      .header__wrapper {
+          display: none;
+      }
       .invis__logo {
           display: flex;
       }
@@ -1212,6 +1365,18 @@
       }
       .sidebar {
           display: none;
+      }
+      .nav__burger__menu {
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          padding-top: 90px;
+          border: 2px solid #F0F0F0;
+      }
+      .open.nav__burger__menu {
+          display: block;
       }
       .revert {
           display: flex;
@@ -1251,6 +1416,9 @@
           height: 88px;
           margin: 0 auto;
       }
+      .header__wrapper {
+          display: none;
+      }
       .invis__logo {
           display: flex;
       }
@@ -1263,6 +1431,18 @@
       .bar3 {
           width: 35px;
           height: 3px;
+      }
+      .nav__burger__menu {
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          padding-top: 90px;
+          border: 2px solid #F0F0F0;
+      }
+      .open .nav__burger__menu {
+          display: block;
       }
       .wrapper-main {
           display: none;
