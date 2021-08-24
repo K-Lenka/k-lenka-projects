@@ -1,0 +1,269 @@
+body {
+    color: #747474;
+    font-size: 1.8rem;
+    line-height: 2.772rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif, 'Rubik', sans-serif;
+    background: #FCFCFC;
+}
+
+.invisible {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+
+/* HEADER*/
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 1800px;
+    height: 90px;
+    margin: 0 79px 0 41px;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    background: #FCFCFC
+}
+
+.wrapper-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #080029;
+}
+
+.navbar-item {
+    padding: 0 64px;
+}
+
+#map {
+    font-weight: bolder;
+}
+
+.hov:hover {
+    color: #200392;
+}
+
+.account-icon {
+    padding-left: 610px;
+}
+
+.list {
+    cursor: pointer;
+}
+
+
+/* HEADER END*/
+
+
+/* SIDEBAR*/
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #F0F0F0;
+    width: 90px;
+    height: 760px;
+    margin: -90px 41px;
+    position: static;
+    background: #FCFCFC;
+}
+
+.sidebar-icons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#panda-icon {
+    margin-bottom: 40px;
+}
+
+#alligator-icon {
+    margin-bottom: 40px;
+}
+
+#eagle-icon {
+    margin-bottom: 40px;
+}
+
+#gorilla-icon {
+    margin-bottom: 40px;
+}
+
+#slider-up {
+    margin-bottom: 30px;
+}
+
+#slider-down {
+    margin-top: 30px;
+}
+
+.logo-wrapper {
+    padding: 25px 19.28px 20px 18.85px;
+    border-bottom: #F0F0F0 solid 1px;
+}
+
+.main-logo:hover {
+    opacity: 0.5;
+}
+
+.logo-zoo {
+    width: 51.87px;
+    height: 40px;
+}
+
+.slider:hover {
+    opacity: 0.75;
+    border-color: #609FFF;
+}
+
+
+/* SIDEBAR END*/
+
+
+/* MAP */
+
+.map_container {
+    background: url(../assets/png/map.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 25px;
+    position: relative;
+}
+
+
+/* MAP end */
+
+
+/* ANIMAL CARD*/
+
+.gorilla-card-block {
+    align-items: center;
+    width: 344px;
+    height: 512px;
+    background: #FCFCFC;
+    box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin-top: 62px;
+    position: absolute;
+    left: 583px;
+    top: 240px;
+}
+
+.gorilla-img-card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    display: inline;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.2rem;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #000000;
+}
+
+.card-name {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 145%;
+    margin: 20px 123px 0 122px;
+    color: #0F0049;
+}
+
+.card-text {
+    text-align: center;
+    width: 264px;
+    height: 84px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 154%;
+    margin: 20px 40px 52px 40px;
+    color: #747474;
+}
+
+.whatch-now-link {
+    text-decoration: none;
+    padding: 0 5px 40px 112px;
+}
+
+.whatch-now_btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #3888FF;
+}
+
+.whatch-now-link:hover {
+    text-decoration: underline #3888FF;
+}
+
+#card-arrow-link {
+    color: #3888FF;
+}
+
+.marker {
+    position: absolute;
+    cursor: pointer;
+}
+
+.marker:hover {
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+.elligator-marker {
+    left: 139px;
+    top: 245px;
+}
+
+.gorilla-marker {
+    left: 918px;
+    top: 495px;
+}
+
+.panda-marker {
+    left: 1687px;
+    top: 292px;
+}
+
+
+/* ANIMAL CARD END*/
