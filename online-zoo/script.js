@@ -2,14 +2,7 @@ var acc = document.getElementsByClassName('accordion');
 var acc1 = document.getElementsByClassName('accordion1');
 var i;
 var j;
-const burger = document.querySelector('.nav__burger')
-const burgerMenu = document.querySelector('.nav__burger__menu');
-const gap = 16;
-const carousel = document.querySelector(".carousel");
-const content = document.querySelectorAll(".content");
-const next = document.querySelector(".next");
-const prev = document.querySelector(".prev");
-const modalWindow = document.querySelector('#show-modal');
+
 
 
 for (i = 0; i < acc.length; i++) {
@@ -37,6 +30,9 @@ for (j = 0; j < acc1.length; j++) {
 }
 
 //hamburger menu + icon change
+const burger = document.querySelector('.nav__burger')
+const burgerMenu = document.querySelector('.nav__burger__menu');
+
 function toggleMenu() {
     burgerMenu.classList.toggle("open");
 }
@@ -48,6 +44,11 @@ burger.addEventListener('click', (myFunction) => {
 })
 
 //carousel
+const gap = 16;
+const carousel = document.querySelector(".carousel");
+const content = document.querySelectorAll(".content");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
 
 next.addEventListener("click", e => {
     carousel.scrollBy(width + gap, 0);
@@ -67,11 +68,3 @@ prev.addEventListener("click", e => {
 let width = carousel.offsetWidth;
 window.addEventListener("resize", e => (width = carousel.offsetWidth));
 
-//modal window
-
-// var modal = $modal();
-
-// modalWindow.addEventListener('click', function(e) {
-
-//     modal.show();
-// });
