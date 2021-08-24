@@ -7,3 +7,6 @@ https://k-lenka.github.io/k-lenka-projects/wildlife/
 virtual-piano app
 https://k-lenka.github.io/k-lenka-projects/virtual-piano/
 
+online-zoo page
+https://k-lenka.github.io/k-lenka-projects/online-zoo/
+
